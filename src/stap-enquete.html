@@ -1,0 +1,77 @@
+<!--
+@license
+Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/paper-fab/paper-fab.html">
+<link rel="import" href="../bower_components/iron-icons/iron-icons.html">
+<link rel="import" href="../bower_components/paper-radio-button/paper-radio-button.html">
+<link rel="import" href="../bower_components/paper-radio-group/paper-radio-group.html">
+<link rel="import" href="../bower_components/paper-input/paper-textarea.html">
+<link rel="import" href="../bower_components/appraisal-el/appraisal-el.html">
+<link rel="import" href="behavior-views.html">
+<link rel="import" href="shared-styles.html">
+
+<dom-module id="stap-enquete">
+  <template>
+    <style include="shared-styles">
+      :host {
+        display: block;
+
+        padding: 10px;
+      }
+
+      .wrapper {
+        margin: 0 auto;
+        max-width: 450px;
+      }
+
+    </style>
+
+    <div class="wrapper">
+      <h1>Dan nu een paar vragen</h1>
+
+      <!--
+          <paper-radio-group selected="3">
+            <paper-radio-button name="1"></paper-radio-button>
+            <paper-radio-button name="2"></paper-radio-button>
+            <paper-radio-button name="3"></paper-radio-button>
+            <paper-radio-button name="4"></paper-radio-button>
+            <paper-radio-button name="5"></paper-radio-button>
+          </paper-radio-group>
+      -->
+
+      <appraisal-el>Vond je het leuk om te lezen?</appraisal-el>
+
+      <appraisal-el>Zou je een veel langer verhaal hierover willen lezen?</appraisal-el>
+
+      <appraisal-el>Wat vond je van de dialogen in het verhaal?</appraisal-el>
+
+      <appraisal-el>Was het goed leesbaar op je scherm?</appraisal-el>
+
+      <paper-textarea rows="3" label="Opmerkingen? Typ ze hier!"></paper-textarea>
+
+      <paper-fab class="forwardbtn" icon="forward" on-tap="nextPage"></paper-fab>
+    </div>
+
+  </template>
+
+  <script>
+    Polymer({
+      is: 'stap-enquete',
+
+      behaviors: [BehaviorViews],
+
+      nextPage: function (event) {
+        this.jumpto("bedankt");
+      }
+
+    });
+  </script>
+</dom-module>

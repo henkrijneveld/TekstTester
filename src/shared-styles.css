@@ -1,0 +1,101 @@
+/*
+
+To get this list of colors inject jQuery at http://www.google.com/design/spec/style/color.html#color-color-palette
+
+Then, run this script to get the list.
+
+
+(function() {
+  var colors = {}, main = {};
+  $(".color-group").each(function() {
+    var color = $(this).find(".name").text().trim().toLowerCase().replace(" ", "-");
+    colors[color] = {};
+
+    $(this).find(".color").not(".main-color").each(function() {
+      var shade = $(this).find(".shade").text().trim(),
+          hex   = $(this).find(".hex").text().trim();
+
+      colors[color][shade] = hex;
+    });
+    main[color] = color + "-" + $(this).find(".main-color .shade").text().trim();
+
+  });
+  var LESS = "";
+  $.each(colors, function(name, shades) {
+    LESS += "\n\n";
+    $.each(shades, function(shade, hex) {
+      LESS += "@" + name + "-" + shade + ": " + hex + ";\n";
+    });
+    if (main[name]) {
+      LESS += "@" + name + ": " + main[name] + ";\n";
+    }
+  });
+  console.log(LESS);
+})();
+
+
+*/
+:root {
+  --app-primary-color: #3f51b5;
+  --app-secondary-color: #ffc107;
+  --paper-fab-background: #ffc107;
+  --text-color: #424242;
+}
+.circle {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  text-align: center;
+  color: #424242;
+  border-radius: 50%;
+  background: #ffc107;
+  font-size: 30px;
+  line-height: 64px;
+}
+.mainpaper {
+  background: #ffffff;
+  margin: 0;
+  padding: 10px;
+}
+@media screen and (max-width: 480px) {
+  .mainpaper {
+    box-shadow: none !important;
+    border-radius: 0 !important;
+  }
+}
+@media screen and (min-width: 481px) {
+  .mainpaper {
+    margin: 8px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .mainpaper {
+    max-width: 960px;
+    margin: 8px auto;
+  }
+}
+.forwardbtn {
+  margin-top: 30px;
+}
+
+/*
+    Polymer specific css extensions, not compatible with less or sass
+    File must be imported with inline keyword in less
+*/
+
+:host {
+  --h1: {
+    margin: 16px 0;
+    color: var(--text-color);
+    font-size: 20px;
+  }
+}
+
+h1 {
+  @apply(--h1);
+}
+
+
+
+
+

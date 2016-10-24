@@ -1,0 +1,21 @@
+
+/*
+    Polymer specific css extensions, not compatible with less or sass
+    File must be imported with inline keyword in less
+*/
+
+:host {
+  --h1: {
+    margin: 16px 0;
+    color: var(--text-color);
+    font-size: 20px;
+  }
+}
+
+h1 {
+  @apply(--h1);
+}
+
+
+
+

@@ -1,0 +1,68 @@
+//
+// Note: compiled css must be concatenated with shared-styles-pre.html shared-styles.css shared-styles-post.html
+// Can be done with fileatcher in PHPStorm
+//
+
+@import "_colorsmdl";
+
+@primary-color: @indigo-500;
+@accent-color: @amber-500;
+@text-color: @grey-800;
+@card-color: @white;
+@background-color: @grey-200;
+
+:root {
+  --app-primary-color: @primary-color;
+  --app-secondary-color: @accent-color;
+  --paper-fab-background: @accent-color;
+  --text-color: @text-color;
+}
+
+.circle {
+  display: inline-block;
+
+  width: 64px;
+  height: 64px;
+
+  text-align: center;
+
+  color: @text-color;
+  border-radius: 50%;
+  background: @accent-color;
+
+  font-size: 30px;
+  line-height: 64px;
+}
+
+// mainpaper
+.mainpaper {
+  background: @card-color;
+  margin: 0;
+  padding: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .mainpaper {
+    box-shadow: none !important;
+    border-radius: 0 !important;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .mainpaper {
+    margin: 8px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .mainpaper {
+    max-width: 960px;
+    margin: 8px auto;
+  }
+}
+
+.forwardbtn {
+  margin-top: 30px;
+}
+
+@import (inline) "shared-applystyles.css";

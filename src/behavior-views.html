@@ -1,0 +1,11 @@
+<script>
+    // next line suppresses lint errors
+    /** @polymerBehavior NameSpace.Behavior */
+
+    BehaviorViews = {
+        jumpto: function(name) {
+            Polymer.dom(this.parent).querySelector("#my-app").page = name;
+//            document.querySelector("#my-app").page = name;
+        }
+    }
+</script>
