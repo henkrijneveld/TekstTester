@@ -10,7 +10,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
 <link rel="import" href="../bower_components/polymer/polymer.html">
 <link rel="import" href="../bower_components/paper-fab/paper-fab.html">
-<link rel="import" href="../bower_components/iron-icons/iron-icons.html" >
+<link rel="import" href="../bower_components/iron-icons/iron-icons.html">
+<link rel="import" href="../bower_components/polymerfire/polymerfire.html">
 <link rel="import" href="behavior-views.html">
 <link rel="import" href="shared-styles.html">
 
@@ -27,18 +28,35 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       }
 
       .tekst {
-          text-align: center;
-          max-width: 480px;
-          margin: 0 auto;
+        text-align: center;
+        max-width: 480px;
+        margin: 0 auto;
       }
     </style>
 
     <div class="tekst">
-        <img src="../images/ger.jpg"/>
-        <h1>Welkom</h1>
-        <p>Fijn dat je me wilt helpen om mijn tekst te testen.</p>
-        <p>Het is heel simpel, en duurt maar een paar minuten. Lees het verhaal dat volgt, en vul daarna de korte enquete in.</p>
+      <img src="../images/ger.jpg"/>
+      <h1>Welkom</h1>
+      <p>Fijn dat je me wilt helpen om mijn tekst te testen.</p>
+      <p>Het is heel simpel, en duurt maar een paar minuten. Lees het verhaal dat volgt, en vul daarna de korte enquete
+        in.</p>
     </div>
+
+    <firebase-app auth-domain="teksttester.firebaseapp.com"
+                  database-url="https://teksttester.firebaseio.com"
+                  api-key="AIzaSyBBk00BEKybBBllKLTit1TvBA21d3iwWbc">
+    </firebase-app>
+    <firebase-document
+            id="textel"
+            path="/text/versiea"
+            data="{{aText}}">
+    </firebase-document>
+    <p id="dynatext"></p>
+
+
+
+
+
     <paper-fab icon="forward" on-tap="nextPage"></paper-fab>
   </template>
 
@@ -46,15 +64,34 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     Polymer({
       is: 'stap-welkom',
 
+      properties: {
+        aText: {
+          type: String,
+          reflectToAttribute: true,
+          readOnly: false,
+          notify: true,
+          value: "Loading ...",
+          observer: "_aTextChanged"
+        }
+      },
+
       behaviors: [BehaviorViews],
 
-      ready: function() {
+      ready: function () {
         this.owner = this.is;
       },
 
-      nextPage: function(event) {
-          this.jumpto("lezen");
+      _aTextChanged: function() {
+        this.$.dynatext.innerHTML = this.aText;
+      },
+
+      nextPage: function (event) {
+        debugger;
+        this.set("aText", "iets anders");
+ //       this.$.textel.save();
+        alert("Saved????");
+ //       this.jumpto("lezen");
       }
-  });
+    });
   </script>
 </dom-module>
