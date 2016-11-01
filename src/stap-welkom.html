@@ -48,7 +48,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     </firebase-app>
     <firebase-document
             id="textel"
-            path="/text/versiea"
+            path="/text"
             data="{{aText}}">
     </firebase-document>
     <p id="dynatext"></p>
@@ -66,11 +66,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
       properties: {
         aText: {
-          type: String,
+          type: Object,
           reflectToAttribute: true,
           readOnly: false,
           notify: true,
-          value: "Loading ...",
+          value: { versiea: 'Loading'},
           observer: "_aTextChanged"
         }
       },
@@ -82,7 +82,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       },
 
       _aTextChanged: function() {
-        this.$.dynatext.innerHTML = this.aText;
+        var t = this.aText.versiea;
+        debugger;
+        if (typeof t !== 'undefined') {
+          this.$.dynatext.innerHTML = t;
+        }
       },
 
       nextPage: function (event) {
