@@ -48,14 +48,24 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     </firebase-app>
     <firebase-document
             id="textel"
-            path="/text"
+            path="/tekst/versiea"
             data="{{aText}}">
     </firebase-document>
     <p id="dynatext"></p>
 
 
+    <firebase-document
+            id="tekstel"
+            path="/text"
+            data="{{aTekst}}">
+    </firebase-document>
 
-
+    <firebase-query
+      id="tekstquery"
+      path="/tekst"
+      data="{{queryresult}}"
+      >
+    </firebase-query>
 
     <paper-fab icon="forward" on-tap="nextPage"></paper-fab>
   </template>
@@ -79,21 +89,42 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
       ready: function () {
         this.owner = this.is;
+        this.$.tekstquery.endAt = "versieb";
+        this.$.tekstquery.orderByChild = "name"
+
       },
 
       _aTextChanged: function() {
-        var t = this.aText.versiea;
-        debugger;
+        var t = this.aText.text;
         if (typeof t !== 'undefined') {
           this.$.dynatext.innerHTML = t;
         }
       },
 
       nextPage: function (event) {
-        debugger;
-        this.set("aText", "iets anders");
- //       this.$.textel.save();
-        alert("Saved????");
+        // write record with random key
+/*
+        var record = {
+          name: "Henk",
+          time: "20161101"
+        };
+        this.$.textel.data = record;
+        this.$.textel.save("/result").then(function(v) {alert("succes!")},
+                function(v) {alert("failure!")});
+*/
+        // write single value
+/*
+        this.$.tekstel.data = {name: "versiec", text: "Een nieuwe tekst jahoor (!)"};
+        this.$.tekstel.save("/tekst", "versiec").then(function(v) {alert("succes!")},
+                function(v) {alert("failure!")});
+*/
+        // try a single json attribute
+//        this.$.tekstel.setStoredValue("/tekst/versieb/text", "Is dit nu wat anders?");
+
+        alert(this.$.tekstquery.data);
+debugger;
+
+
  //       this.jumpto("lezen");
       }
     });
