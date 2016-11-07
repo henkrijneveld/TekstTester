@@ -21,6 +21,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <link rel="import" href="../bower_components/iron-selector/iron-selector.html">
 <link rel="import" href="../bower_components/paper-icon-button/paper-icon-button.html">
 <link rel="import" href="../bower_components/paper-material/paper-material.html">
+<link rel="import" href="../bower_components/polymerfire/polymerfire.html">
 <link rel="import" href="shared-styles.html">
 <link rel="import" href="my-icons.html">
 <link rel="import" href="behavior-views.html">
@@ -85,9 +86,18 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <app-location route="{{route}}"></app-location>
     <app-route
         route="{{route}}"
-        pattern="/:page"
+        pattern="/teksttester/:page"
         data="{{routeData}}"
         tail="{{subroute}}"></app-route>
+
+    <firebase-app auth-domain="teksttester.firebaseapp.com"
+                  database-url="https://teksttester.firebaseio.com"
+                  api-key="AIzaSyBBk00BEKybBBllKLTit1TvBA21d3iwWbc">
+    </firebase-app>
+
+    <firebase-document id="logline">
+    </firebase-document>
+
 
     <app-drawer-layout fullbleed>
       <!-- Drawer content -->
@@ -146,9 +156,15 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
       _routePageChanged: function(page) {
         this.page = page || 'welkom';
+        if (this.page == "index.php") {
+          this.page = "welkom";
+        }
       },
 
       _pageChanged: function(page) {
+        if (page == "index.php") {
+          page = "welkom";
+        }
         // Load page import on demand. Show 404 page if fails
         var resolvedPageUrl = this.resolveUrl('stap-' + page + '.html');
         this.importHref(resolvedPageUrl, null, this._showPage404, true);

@@ -11,7 +11,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <link rel="import" href="../bower_components/polymer/polymer.html">
 <link rel="import" href="../bower_components/paper-fab/paper-fab.html">
 <link rel="import" href="../bower_components/iron-icons/iron-icons.html">
-<link rel="import" href="../bower_components/polymerfire/polymerfire.html">
 <link rel="import" href="behavior-views.html">
 <link rel="import" href="shared-styles.html">
 
@@ -40,32 +39,13 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       <p>Fijn dat je me wilt helpen om mijn tekst te testen.</p>
       <p>Het is heel simpel, en duurt maar een paar minuten. Lees het verhaal dat volgt, en vul daarna de korte enquete
         in.</p>
+      <p>je bent nu op {{page}}</p>
     </div>
 
-    <firebase-app auth-domain="teksttester.firebaseapp.com"
-                  database-url="https://teksttester.firebaseio.com"
-                  api-key="AIzaSyBBk00BEKybBBllKLTit1TvBA21d3iwWbc">
-    </firebase-app>
     <firebase-document
-            id="textel"
-            path="/tekst/versiea"
-            data="{{aText}}">
+            id="textel">
+
     </firebase-document>
-    <p id="dynatext"></p>
-
-
-    <firebase-document
-            id="tekstel"
-            path="/text"
-            data="{{aTekst}}">
-    </firebase-document>
-
-    <firebase-query
-      id="tekstquery"
-      path="/tekst"
-      data="{{queryresult}}"
-      >
-    </firebase-query>
 
     <paper-fab icon="forward" on-tap="nextPage"></paper-fab>
   </template>
@@ -74,58 +54,23 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     Polymer({
       is: 'stap-welkom',
 
-      properties: {
-        aText: {
-          type: Object,
-          reflectToAttribute: true,
-          readOnly: false,
-          notify: true,
-          value: { versiea: 'Loading'},
-          observer: "_aTextChanged"
-        }
-      },
-
       behaviors: [BehaviorViews],
 
       ready: function () {
-        this.owner = this.is;
-        this.$.tekstquery.endAt = "versieb";
-        this.$.tekstquery.orderByChild = "name"
-
-      },
-
-      _aTextChanged: function() {
-        var t = this.aText.text;
-        if (typeof t !== 'undefined') {
-          this.$.dynatext.innerHTML = t;
-        }
       },
 
       nextPage: function (event) {
         // write record with random key
-/*
         var record = {
           name: "Henk",
-          time: "20161101"
+          time: "20161101",
+          referrer: document.referrer
         };
         this.$.textel.data = record;
-        this.$.textel.save("/result").then(function(v) {alert("succes!")},
+        this.$.textel.save("/result").then(function(v) {alert("succes!"); },
                 function(v) {alert("failure!")});
-*/
-        // write single value
-/*
-        this.$.tekstel.data = {name: "versiec", text: "Een nieuwe tekst jahoor (!)"};
-        this.$.tekstel.save("/tekst", "versiec").then(function(v) {alert("succes!")},
-                function(v) {alert("failure!")});
-*/
-        // try a single json attribute
-//        this.$.tekstel.setStoredValue("/tekst/versieb/text", "Is dit nu wat anders?");
 
-        alert(this.$.tekstquery.data);
-debugger;
-
-
- //       this.jumpto("lezen");
+        this.jumpto("lezen");
       }
     });
   </script>
