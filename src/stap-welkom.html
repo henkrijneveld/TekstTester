@@ -39,7 +39,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       <p>Fijn dat je me wilt helpen om mijn tekst te testen.</p>
       <p>Het is heel simpel, en duurt maar een paar minuten. Lees het verhaal dat volgt, en vul daarna de korte enquete
         in.</p>
-      <p>je bent nu op {{page}}</p>
+      <p>je bent nu op {{name}}</p>
     </div>
 
     <firebase-document
@@ -60,16 +60,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       },
 
       nextPage: function (event) {
-        // write record with random key
-        var record = {
-          name: "Henk",
-          time: "20161101",
-          referrer: document.referrer
-        };
-        this.$.textel.data = record;
-        this.$.textel.save("/result").then(function(v) {alert("succes!"); },
-                function(v) {alert("failure!")});
-
         this.jumpto("lezen");
       }
     });

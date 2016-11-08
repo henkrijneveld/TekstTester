@@ -4,7 +4,19 @@
   if (isset($_SERVER['REMOTE_ADDR'])) {
     $ip = filter_input(INPUT_SERVER, 'REMOTE_ADDR', FILTER_VALIDATE_IP);
   }
+
+  // Make random key: date-time-ip-randomhash
+  $sessionkey = DateTime::createFromFormat('U.u', microtime(true))->format("Y-m-d=H:i:s.u");
+
+  //@todo change $ip into hash
+  $sessionkey .= "=".$ip;
+
+  $sessionkey .= "=".sprintf("%04d", mt_rand(0, 10000));
+
+  //@todo better algorithm
+  $textkey = "versiea";
 ?>
+
 
 <!--
 @license
@@ -120,7 +132,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     </style>
   </head>
   <body>
-    <my-app id="my-app"></my-app>
+    <my-app id="my-app" sessionkey="<?php echo $sessionkey; ?>" textkey="<?php echo $textkey; ?>"></my-app>
     <!-- Built with love using Polymer Starter Kit -->
   </body>
 </html>

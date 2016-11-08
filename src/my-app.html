@@ -126,10 +126,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
               attr-for-selected="name"
               fallback-selection="404"
               role="main">
-            <stap-welkom name="welkom"></stap-welkom>
-            <stap-lezen name="lezen"></stap-lezen>
-            <stap-enquete name="enquete"></stap-enquete>
-            <stap-bedankt name="bedankt"></stap-bedankt>
+            <stap-welkom name="welkom" sessionkey="[[sessionkey]]" textkey="[[textkey]]"></stap-welkom>
+            <stap-lezen name="lezen" sessionkey="[[sessionkey]]" textkey="[[textkey]]"></stap-lezen>
+            <stap-enquete name="enquete" sessionkey="[[sessionkey]]"></stap-enquete>
+            <stap-bedankt name="bedankt" sessionkey="[[sessionkey]]"></stap-bedankt>
             <stap-404 name="404"></stap-404>
           </iron-pages>
         </paper-material>
@@ -153,6 +153,21 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       observers: [
         '_routePageChanged(routeData.page)'
       ],
+
+      ready: function () {
+        // write session record
+        debugger;
+        var record = {
+          date: "Henk",
+          time: "20161101",
+          referrer: document.referrer,
+          version: this.textkey
+        };
+        this.$.logline.data = record;
+        alert(this.sessionkey);
+        this.$.logline.save("/result", "blabla").then(function(v) {alert("succes!"); },
+                function(v) {alert("failure!")});
+      },
 
       _routePageChanged: function(page) {
         this.page = page || 'welkom';
