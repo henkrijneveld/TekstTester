@@ -156,17 +156,18 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
       ready: function () {
         // write session record
-        debugger;
+        var d = new Date();
         var record = {
-          date: "Henk",
-          time: "20161101",
+          date: d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate(),
+          time: d.getHours() + ':' + d.getMinutes() + ':' + d.getSeconds() + '.' + d.getMilliseconds(),
           referrer: document.referrer,
           version: this.textkey
         };
         this.$.logline.data = record;
-        alert(this.sessionkey);
-        this.$.logline.save("/result", "blabla").then(function(v) {alert("succes!"); },
-                function(v) {alert("failure!")});
+        this.$.logline.save("/result", this.sessionkey).then(function(v) {alert("succes!"); },
+                function(v) {
+                  alert(v.message)}
+        );
       },
 
       _routePageChanged: function(page) {

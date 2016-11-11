@@ -5,11 +5,11 @@
     $ip = filter_input(INPUT_SERVER, 'REMOTE_ADDR', FILTER_VALIDATE_IP);
   }
 
-  // Make random key: date-time-ip-randomhash
-  $sessionkey = DateTime::createFromFormat('U.u', microtime(true))->format("Y-m-d=H:i:s.u");
+  // Make random unique key: date-time-ip-randomhash
+  $sessionkey = DateTime::createFromFormat('U.u', microtime(true))->format("Y-m-d=H:i:s:u");
 
   //@todo change $ip into hash
-  $sessionkey .= "=".$ip;
+  $sessionkey .= "=".str_replace(".", ":", $ip);
 
   $sessionkey .= "=".sprintf("%04d", mt_rand(0, 10000));
 
@@ -35,7 +35,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
 
     <title>TekstTester</title>
-    <meta name="description" content="My App description">
+    <meta name="description" content="App om teksten te testen">
 
     <link rel="icon" href="/images/favicon.png">
 
@@ -47,12 +47,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
     <!-- Add to homescreen for Chrome on Android. Fallback for manifest.json -->
     <meta name="mobile-web-app-capable" content="yes">
-    <meta name="application-name" content="My App">
+    <meta name="application-name" content="TekstTester">
 
     <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="My App">
+    <meta name="apple-mobile-web-app-title" content="TekstTester">
 
     <!-- Homescreen icons -->
     <link rel="apple-touch-icon" href="/images/manifest/icon-48x48.png">
@@ -112,6 +112,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 //      }
     </script>
 
+<!-- @todo: make relative againg when not using phpstorm -->
     <link rel="import" href="/teksttester/src/my-app.html">
 
     <style>
