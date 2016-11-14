@@ -37,6 +37,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         margin-right: 32px;
       }
 
+      img:hover, #mail:hover {
+        cursor: pointer;
+      }
+
       .wrapper {
         margin: 0 auto;
         max-width: 450px;
@@ -44,6 +48,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       }
 
     </style>
+    <firebase-document id="logline">
+    </firebase-document>
 
     <div class="wrapper">
       <h1>Dankjewel</h1>
@@ -64,8 +70,21 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     Polymer({
       is: 'stap-bedankt',
 
-      behaviors: [BehaviorViews]
+      ready: function() {
+        this.$.facebook.onclick = function() {
+          window.open('http://www.facebook.com/sharer/sharer.php?u=https://tekst.nutesten.nl','fbshare','width=480,height=100')
+        }
 
+        this.$.twitter.onclick = function() {
+          window.open('https://twitter.com/intent/tweet?text=https:%2F%2Ftekst.testen.nl%20Ik%20heb%20meegedaan!%20Doe%20jij%20het%20ook%3F', 'twshare', 'width=480,height=250');
+        }
+
+        this.$.mail.onclick = function() {
+          window.location.href = "mailto:vul@naamin.nl?subject=Doe%20je%20ook%20mee%3F&body=Test%20een%20leuke%20tekst%20op:%20https:%2F%2Ftekst.testen.nl!";
+        }
+      },
+
+      behaviors: [BehaviorViews]
     });
   </script>
 </dom-module>

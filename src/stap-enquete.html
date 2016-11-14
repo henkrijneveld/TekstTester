@@ -34,6 +34,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
     </style>
 
+    <firebase-document id="logline">
+    </firebase-document>
+
+    <firebase-document id="resultline">
+    </firebase-document>
+
     <div class="wrapper">
       <h1>Dan nu een paar vragen</h1>
 
@@ -47,15 +53,15 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           </paper-radio-group>
       -->
 
-      <appraisal-el>Vond je het leuk om te lezen?</appraisal-el>
+      <appraisal-el id="vraagleuk" oordeel="3"> Vond je het leuk om te lezen?</appraisal-el>
 
-      <appraisal-el>Zou je een veel langer verhaal hierover willen lezen?</appraisal-el>
+      <appraisal-el id="vraaglanger" oordeel="3">Zou je een veel langer verhaal hierover willen lezen?</appraisal-el>
 
-      <appraisal-el>Wat vond je van de dialogen in het verhaal?</appraisal-el>
+      <appraisal-el id="vraagdialoog" oordeel="3">Wat vond je van de dialogen in het verhaal?</appraisal-el>
 
-      <appraisal-el>Was het goed leesbaar op je scherm?</appraisal-el>
+      <appraisal-el id="vraagusability" oordeel="3">Was het goed leesbaar op je scherm?</appraisal-el>
 
-      <paper-textarea rows="3" label="Opmerkingen? Typ ze hier!"></paper-textarea>
+      <paper-textarea rows="3" label="Opmerkingen? Typ ze hier!" id="vraagopmerking"></paper-textarea>
 
       <paper-fab class="forwardbtn" icon="forward" on-tap="nextPage"></paper-fab>
     </div>
@@ -69,6 +75,17 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       behaviors: [BehaviorViews],
 
       nextPage: function (event) {
+        var record = {
+          tijd: this.timestring(),
+          vraagleuk: this.$.vraagleuk.oordeel,
+          vraaglanger: this.$.vraaglanger.oordeel,
+          vraagdialoog: this.$.vraagdialoog.oordeel,
+          vraagusability: this.$.vraagusability.oordeel,
+          vraagopmerking: this.$.vraagopmerking.value || ""
+        };
+        this.$.resultline.data = record;
+        this.$.resultline.save("/result/" + this.sessionkey, "/Enquete").then(function(v) {}, function(v) {alert(v.message)});
+
         this.jumpto("bedankt");
       }
 

@@ -98,7 +98,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <firebase-document id="logline">
     </firebase-document>
 
-
     <app-drawer-layout fullbleed>
       <!-- Drawer content -->
 <!--      <app-drawer>
@@ -164,10 +163,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           version: this.textkey
         };
         this.$.logline.data = record;
-        this.$.logline.save("/result", this.sessionkey).then(function(v) {alert("succes!"); },
-                function(v) {
-                  alert(v.message)}
-        );
+        this.$.logline.save("/result", this.sessionkey).then(function(v) {}, function(v) {alert(v.message)});
       },
 
       _routePageChanged: function(page) {

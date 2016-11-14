@@ -33,19 +33,16 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       }
     </style>
 
+    <firebase-document id="logline">
+    </firebase-document>
+
     <div class="tekst">
       <img src="../images/ger.jpg"/>
       <h1>Welkom</h1>
       <p>Fijn dat je me wilt helpen om mijn tekst te testen.</p>
       <p>Het is heel simpel, en duurt maar een paar minuten. Lees het verhaal dat volgt, en vul daarna de korte enquete
         in.</p>
-      <p>je bent nu op {{name}}</p>
     </div>
-
-    <firebase-document
-            id="textel">
-
-    </firebase-document>
 
     <paper-fab icon="forward" on-tap="nextPage"></paper-fab>
   </template>
@@ -55,9 +52,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       is: 'stap-welkom',
 
       behaviors: [BehaviorViews],
-
-      ready: function () {
-      },
 
       nextPage: function (event) {
         this.jumpto("lezen");

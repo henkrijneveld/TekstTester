@@ -25,12 +25,15 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       }
 
     </style>
-    <h1>Doorgeslagen wetgeving</h1>
-    <p>'Het identiteitsbewijs van uw oudoom is nu volledig verlopen. Er moet nu echt een nieuwe komen.' Erg blij ben ik niet met deze mededeling door de zorgcoördinator van het verpleeghuis. Hoe moet ik met mijn volledig demente oudoom in vredesnaam naar het gemeentehuis? Ik waag er een belletje aan. Een vriendelijke dame begrijpt onmiddellijk mijn probleem en heeft ook de oplossing: de afdeling huisbezoeken. Deze afdeling is speciaal opgericht voor de vele gevallen van ernstig zieke mensen die verplicht worden om een geldige ID-kaart te hebben. Ik heb een beetje hoop dat er deze keer een simpele oplossing voorhanden is en kijk uit naar het telefoontje van de afdeling huisbezoek.<br /><br />Dát had ik beter niet kunnen doen. Een grotere deceptie is er vandaag niet. Ik word netjes teruggebeld, dat wel. Alleen is er helemaal geen sprake van huisbezoek. Ik word geacht op zoek te gaan naar een pasfoto-fotograaf die aan huis wil komen. Deze maakt dan pasfoto's van een kwijlende, oude man die zijn ogen nauwelijks meer opendoet, en niet meer kan reageren. Met de pasfoto's mag ik dan zelf naar het gemeentehuis om een nieuwe ID-kaart aan te vragen tegen betaling van ruim 50 euro. Ik moet natuurlijk wel kunnen aantonen dat ik ben wie ik ben, dat ik de wettelijk vertegenwoordiger ben, dat ik mentor ben over mijn oudoom, want stel je voor dat iemand anders zich wil uitgeven voor een demente, oude man die alleen nog maar in bed ligt en geen reactie meer geeft...<br />En mocht de pasfoto niet aan alle exacte eisen voldoen... dan word ik teruggestuurd om mijn huiswerk opnieuw te doen.<br /><br />Oké dat laatste zeg ik er zelf bij. Op de website van de gemeente heb ik namelijk gevonden dat een pasfoto alleen mag afwijken van alle officiële eisen als er een medische verklaring bij zit. Dat is de dame van afdeling huisbezoek vergeten te melden, denk ik. In feite ben ik van het kastje naar de muur gestuurd, of met een kluitje het riet in als je dat een mooier gezegde vindt.<br /><br />Ik sta voor een onmogelijke klus, die ik persoonlijk ook volkomen zinloos vind. Welke gek gaat zich uitgeven voor iemand die niets meer kan? Waarom is er in de wetgeving met betrekking tot identificatieplicht geen uitzondering omschreven voor mensen die in coma liggen? Of voor mensen die zo zwaar dement of ziek zijn dat ze niets anders meer kunnen dan in bed liggen of in een rolstoel hangen? Welke oetlul in het Haagse heeft verzonnen dat een geldige ID-kaart verplicht is voor iedereen die nog ademhaalt? Stel dat ik geen nieuwe kaart ga regelen, wordt mijn oudoom dan niet meer geholpen in het ziekenhuis wanneer hij een longontsteking heeft? Laten ze hem dan doodgaan omdat zijn identiteit niet met een geldig document kan worden bevestigd?<br /><br />Op de site van de Rijksoverheid vind ik informatie over de identificatieplicht met onder het kopje 'verstandelijk gehandicapten en psychiatrische patiënten':</p>
-    <div style="padding-left: 30px;"><span style="color: #000080;">De identificatieplicht geldt voor iedereen. Het is niet mogelijk voor bepaalde groepen een uitzondering te maken, bijvoorbeeld voor verstandelijk gehandicapten en psychiatrische patiënten. Als een persoon in staat is zich zelfstandig in openbare ruimtes te begeven, mag verwacht worden dat hij of zij ook een identiteitsbewijs kan dragen.</span></div>
-    <p>Maar mijn oudoom is niet in staat om zich zelfstandig in openbare ruimtes te begeven. En toch kan daar geen uitzondering voor worden gemaakt? Of is het aan de diverse zorginstellingen om de interpretatie van de wet in te vullen? Dan heb ik dus pech met het ziekenhuis waar mijn oudoom af en toe moet worden behandeld, want zij eisen een geldige identiteitskaart. En zij hebben er geen boodschap aan dat het regelen mij een inspanning van enkele dagen gaat kosten. Mijn oudoom wordt verzorgd in een verpleeghuis op meer dan een uur afstand (en niet omdat ik daar voor gekozen heb). Ik moet gaan bellen met fotografen tot ik iemand vind die 'aan huis' pasfoto's maakt. Dan volgt een afspraak om de foto's te maken. In het meest gunstige geval krijg ik de foto's op diezelfde dag en ook nog op tijd om naar het stadskantoor te gaan. Weer in het meest gunstige geval wordt mijn aanvraag op het stadskantoor in behandeling genomen na betaling van de leges en kan ik enige dagen later de nieuwe ID-kaart ophalen.<br />Slechts zelden verloopt zoiets op de meest gunstige manier. Bij het maken van de pasfoto is het een hele opgave om te zorgen dat mijn oudoom zijn ogen opent. Mogelijk lukt dat niet. Ga ik dan met pasfoto's naar het stadskantoor of laat ik de fotograaf op een andere dag terugkomen? Misschien kijkt mijn oudoom op de pasfoto uiteindelijk door een klein spleetje en ga ik de aanvraag proberen. Grote kans dat de foto niet wordt geaccepteerd, omdat hij niet aan alle regels voldoet. Sta ik weer op straat.<br /><br />Ik kan zo nog wel even doorgaan. Ik denk dat de lezer het plaatje wel snapt. Los van de tijd, en dus het geld, wat het mij kost om dit te regelen, vind ik het complete waanzin dat er voor ernstig zieke mensen als mijn oudoom geen uitzondering is gemaakt in de wet. Dit is doorgeslagen wetgeving. Wanneer gaan uitvoerende instanties als de gemeente een klacht indienen bij de Rijksoverheid? Ik kan niks anders doen dan het klachtenformulier van de gemeente invullen. Misschien kan ik nog ergens een klachtenformulier bij de Rijksoverheid vinden. Veel hoop dat ik daarmee een verandering in gang zet heb ik niet. Ik zie de muur en het kastje alweer op mijn netvlies verschijnen...</p>
+    <firebase-document id="logline">
+    </firebase-document>
 
+    <firebase-document id="textversie"
+      path="/tekst/[[textkey]]/text"
+      data="{{text}}">
+    </firebase-document>
 
+    <div id="tekst">[[text]]</div>
 
     <paper-fab icon="forward" on-tap="nextPage"></paper-fab>
 
@@ -40,7 +43,25 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     Polymer({
       is: 'stap-lezen',
 
+      properties: {
+        text: {
+          value: "Tekst wordt geladen ...",
+          type: String,
+          reflectToAttribute: true,
+          notify: true,
+          observer: '_textChanged'
+        }
+      },
+
       behaviors: [BehaviorViews],
+
+      _textChanged: function() {
+        this.$.tekst.innerHTML = this.text;
+      },
+
+      ready: function() {
+
+      },
 
       nextPage: function(event) {
         this.jumpto("enquete");

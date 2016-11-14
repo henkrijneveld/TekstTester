@@ -9,12 +9,15 @@
   $sessionkey = DateTime::createFromFormat('U.u', microtime(true))->format("Y-m-d=H:i:s:u");
 
   //@todo change $ip into hash
-  $sessionkey .= "=".str_replace(".", ":", $ip);
+  $hidden = str_replace(".", ":", $ip);
+  $hidden .= "+".sprintf("%04d", mt_rand(0, 10000));
+  $hidden = openssl_encrypt($hidden, "AES128" , "Stant1234");
+  $sessionkey .= "=".$hidden;
 
-  $sessionkey .= "=".sprintf("%04d", mt_rand(0, 10000));
-
-  //@todo better algorithm
-  $textkey = "versiea";
+  //@todo better algorithm or cookie?
+  $parts = explode(".", $ip);
+  $type = intval($parts[0]) + intval($parts[1]) + intval($parts[2]) + intval($parts[3]);
+  $textkey = "versie" . chr(ord("a") + ($type % 3));
 ?>
 
 
@@ -133,6 +136,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     </style>
   </head>
   <body>
+
     <my-app id="my-app" sessionkey="<?php echo $sessionkey; ?>" textkey="<?php echo $textkey; ?>"></my-app>
     <!-- Built with love using Polymer Starter Kit -->
   </body>

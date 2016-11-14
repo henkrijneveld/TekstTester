@@ -6,6 +6,24 @@
         jumpto: function(name) {
             Polymer.dom(this.parent).querySelector("#my-app").page = name;
 //            document.querySelector("#my-app").page = name;
+        },
+
+        ready: function () {
+          debugger;
+          this.writelogline(this.is);
+        },
+
+        timestring: function() {
+          var d = new Date();
+          return (("0"+d.getHours()).slice(-2) + ':' + ("0"+d.getMinutes()).slice(-2) + ':' + ("0"+d.getSeconds()).slice(-2) + ':' + ("00000"+d.getMilliseconds()).slice(-3));
+        },
+
+        writelogline: function(logname) {
+          var record = {
+            name: logname
+          };
+          this.$.logline.data = record;
+          this.$.logline.save("/result/" + this.sessionkey, this.timestring()).then(function(v) {}, function(v) {alert(v.message)});
         }
     }
 </script>
