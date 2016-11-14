@@ -1,4 +1,15 @@
 <?php
+// This phpcode will generate:
+// $sessionkey: unique identifier of the session
+// $textkey: the name of the text to display (should be in firebase /text
+// $baseurl: baseurl of the website excluding domainname
+
+  $baseurl = "";
+  if (isset($_SERVER['PHP_SELF'])) {
+    $baseurl = pathinfo($_SERVER['PHP_SELF'], PATHINFO_DIRNAME);
+  }
+  $baseurl .= "/";
+
   $ip = '0.0.0.0';
 
   if (isset($_SERVER['REMOTE_ADDR'])) {
@@ -18,9 +29,10 @@
   $parts = explode(".", $ip);
   $type = intval($parts[0]) + intval($parts[1]) + intval($parts[2]) + intval($parts[3]);
   $textkey = "versie" . chr(ord("a") + ($type % 3));
+
+echo phpinfo();
+die;
 ?>
-
-
 <!--
 @license
 Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
@@ -30,7 +42,6 @@ The complete set of contributors may be found at http://polymer.github.io/CONTRI
 Code distributed by Google as part of the polymer project is also
 subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
 -->
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -99,7 +110,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         if (!webComponentsSupported) {
           var script = document.createElement('script');
           script.async = true;
-          script.src = '/teksttester/bower_components/webcomponentsjs/webcomponents-lite.min.js';
+          script.src = '/TekstTester/bower_components/webcomponentsjs/webcomponents-lite.min.js';
           script.onload = onload;
           document.head.appendChild(script);
         } else {
@@ -116,7 +127,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     </script>
 
 <!-- @todo: make relative againg when not using phpstorm -->
-    <link rel="import" href="/teksttester/src/my-app.html">
+    <link rel="import" href="/TekstTester/src/my-app.html">
 
     <style>
       body {
