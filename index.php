@@ -3,12 +3,16 @@
 // $sessionkey: unique identifier of the session
 // $textkey: the name of the text to display (should be in firebase /text
 // $baseurl: baseurl of the website excluding domainname
+  $use_vulcanized = true; // will load my-app-vulcanized.html when true (instead of my-app.html)
 
-  $baseurl = "";
-  if (isset($_SERVER['PHP_SELF'])) {
-    $baseurl = pathinfo($_SERVER['PHP_SELF'], PATHINFO_DIRNAME);
+  $basepath = "/";    // cannot be resolved by REQUEST_URI in phpstorm builtin webserver wont allow it
+                        // set manually in that case (!!!)
+  if (isset($_SERVER['REQUEST_URI'])) {
+    $basepath = pathinfo($_SERVER['REQUEST_URI'], PATHINFO_DIRNAME);
+    if (strlen($basepath) == 0 || substr($basepath, -1) != "/") {
+      $basepath .= "/";
+    }
   }
-  $baseurl .= "/";
 
   $ip = '0.0.0.0';
 
@@ -22,16 +26,14 @@
   //@todo change $ip into hash
   $hidden = str_replace(".", ":", $ip);
   $hidden .= "+".sprintf("%04d", mt_rand(0, 10000));
-  $hidden = openssl_encrypt($hidden, "AES128" , "Stant1234");
+  $hidden = openssl_encrypt($hidden, "AES128" , "Stant1234", 0, str_pad("", 16, "1"));
+  $hidden = str_replace("/", "-", $hidden); // base64 uses /, will be interpreted by key separator in firebase
   $sessionkey .= "=".$hidden;
 
   //@todo better algorithm or cookie?
   $parts = explode(".", $ip);
   $type = intval($parts[0]) + intval($parts[1]) + intval($parts[2]) + intval($parts[3]);
   $textkey = "versie" . chr(ord("a") + ($type % 3));
-
-echo phpinfo();
-die;
 ?>
 <!--
 @license
@@ -51,10 +53,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <title>TekstTester</title>
     <meta name="description" content="App om teksten te testen">
 
-    <link rel="icon" href="/images/favicon.png">
+    <link rel="icon" href="<?php echo $basepath; ?>images/favicon.png">
 
     <!-- See https://goo.gl/OOhYW5 -->
-    <link rel="manifest" href="/teksttester/manifest.json">
+    <link rel="manifest" href="<?php echo $basepath; ?>manifest.json">
 
     <!-- See https://goo.gl/qRE0vM -->
     <meta name="theme-color" content="#3f51b5">
@@ -69,14 +71,14 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <meta name="apple-mobile-web-app-title" content="TekstTester">
 
     <!-- Homescreen icons -->
-    <link rel="apple-touch-icon" href="/images/manifest/icon-48x48.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/images/manifest/icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="96x96" href="/images/manifest/icon-96x96.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/images/manifest/icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="192x192" href="/images/manifest/icon-192x192.png">
+    <link rel="apple-touch-icon" href="<?php echo $basepath; ?>images/manifest/icon-48x48.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="<?php echo $basepath; ?>images/manifest/icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="96x96" href="<?php echo $basepath; ?>images/manifest/icon-96x96.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="<?php echo $basepath; ?>images/manifest/icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="<?php echo $basepath; ?>images/manifest/icon-192x192.png">
 
     <!-- Tile icon for Windows 8 (144x144 + tile color) -->
-    <meta name="msapplication-TileImage" content="/images/manifest/icon-144x144.png">
+    <meta name="msapplication-TileImage" content="<?php echo $basepath; ?>images/manifest/icon-144x144.png">
     <meta name="msapplication-TileColor" content="#3f51b5">
     <meta name="msapplication-tap-highlight" content="no">
 
@@ -110,7 +112,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         if (!webComponentsSupported) {
           var script = document.createElement('script');
           script.async = true;
-          script.src = '/TekstTester/bower_components/webcomponentsjs/webcomponents-lite.min.js';
+          script.src = '<?php echo $basepath; ?>bower_components/webcomponentsjs/webcomponents-lite.min.js';
           script.onload = onload;
           document.head.appendChild(script);
         } else {
@@ -127,7 +129,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     </script>
 
 <!-- @todo: make relative againg when not using phpstorm -->
-    <link rel="import" href="/TekstTester/src/my-app.html">
+    <?php if ($use_vulcanized): ?>
+    <link rel="import" href="<?php echo $basepath; ?>src/my-app-vulcanized.html">
+    <?php else: ?>
+    <link rel="import" href="<?php echo $basepath; ?>src/my-app.html">
+    <?php endif ?>
+
 
     <style>
       body {
@@ -147,8 +154,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     </style>
   </head>
   <body>
-
-    <my-app id="my-app" sessionkey="<?php echo $sessionkey; ?>" textkey="<?php echo $textkey; ?>"></my-app>
-    <!-- Built with love using Polymer Starter Kit -->
+    <my-app
+        id="my-app" sessionkey="<?php echo $sessionkey; ?>"
+        textkey="<?php echo $textkey; ?>"
+        basepath="<?php echo $basepath; ?>">
+    </my-app>
   </body>
 </html>
