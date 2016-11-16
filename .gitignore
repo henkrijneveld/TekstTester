@@ -1,6 +1,6 @@
 bower_components/
 build/
-node_modules/
 .idea
 src/my-app-vulcanized.html
 src/my-app-original.html
+enricher.php

@@ -29,11 +29,10 @@
   // Make random unique key: date-time-ip-randomhash
   $sessionkey = DateTime::createFromFormat('U.u', microtime(true))->format("Y-m-d=H:i:s:u");
 
-  //@todo change $ip into hash
-  $hidden = str_replace(".", ":", $ip);
-  $hidden .= "+".sprintf("%04d", mt_rand(0, 10000));
-  $hidden = openssl_encrypt($hidden, "AES128" , "Stant1234", 0, str_pad("", 16, "1"));
-  $hidden = str_replace("/", "-", $hidden); // base64 uses /, will be interpreted by key separator in firebase
+  // make it unique
+  $hidden = sprintf("%05d", mt_rand(0, 100000));
+  define("TEKSTTESTER", "OK");
+  include "enricher.php";
   $sessionkey .= "=".$hidden;
 
   //@todo better algorithm or cookie?
