@@ -98,12 +98,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <meta name="msapplication-tap-highlight" content="no">
 
     <!-- facebook opengraphs -->
-    <meta name="og:title" content="Test een verhaal van Ger" />
-    <meta name="og:type" content="article" />
-    <meta name="og:url" content="https://nutesten.nl/tekst" />
-    <meta name="og:site_name" content="TekstTester" />
-    <meta name="og:description" content="Verhalentester" />
-    <meta name="og:image" content="https://nutesten.nl/tekst/images/ger.jpg" />
+    <meta property="og:title" content="Test een verhaal van Ger" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://nutesten.nl/tekst" />
+    <meta property="og:site_name" content="TekstTester" />
+    <meta property="og:description" content="Verhalentester" />
+    <meta property="og:image" content="https://nutesten.nl/tekst/images/ger.jpg" />
 
     <script>
       // Setup Polymer options
