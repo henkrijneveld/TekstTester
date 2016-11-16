@@ -3,16 +3,22 @@
 // $sessionkey: unique identifier of the session
 // $textkey: the name of the text to display (should be in firebase /text
 // $baseurl: baseurl of the website excluding domainname
-  $use_vulcanized = true; // will load my-app-vulcanized.html when true (instead of my-app.html)
-
   $basepath = "/";    // cannot be resolved by REQUEST_URI in phpstorm builtin webserver wont allow it
                         // set manually in that case (!!!)
+
   if (isset($_SERVER['REQUEST_URI'])) {
-    $basepath = pathinfo($_SERVER['REQUEST_URI'], PATHINFO_DIRNAME);
+    $basepath = $_SERVER['REQUEST_URI'];
     if (strlen($basepath) == 0 || substr($basepath, -1) != "/") {
-      $basepath .= "/";
+      $basepath = pathinfo($_SERVER['REQUEST_URI'], PATHINFO_DIRNAME);
+      if (strlen($basepath) == 0 || substr($basepath, -1) != "/") {
+        $basepath .= "/";
+      }
     }
   }
+
+  $use_vulcanized = ($basepath == "/tekst/"); // so will be used on nutesten.nl/tekst
+//  $use_vulcanized = true; // will load my-app-vulcanized.html when true (instead of my-app.html)
+
 
   $ip = '0.0.0.0';
 
@@ -34,6 +40,16 @@
   $parts = explode(".", $ip);
   $type = intval($parts[0]) + intval($parts[1]) + intval($parts[2]) + intval($parts[3]);
   $textkey = "versie" . chr(ord("a") + ($type % 3));
+
+  // cache control of vulcanized
+  $time_vulcanized_changed = filemtime(__DIR__."/src/my-app-vulcanized.html");
+
+/*
+echo "Basepath: ".$basepath;
+print_r($_SERVER);
+echo phpinfo();
+die;
+*/
 ?>
 <!--
 @license
@@ -51,7 +67,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
 
     <title>TekstTester</title>
-    <meta name="description" content="App om teksten te testen">
+    <meta name="description" content="Verhalentester">
 
     <link rel="icon" href="<?php echo $basepath; ?>images/favicon.png">
 
@@ -81,6 +97,14 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <meta name="msapplication-TileImage" content="<?php echo $basepath; ?>images/manifest/icon-144x144.png">
     <meta name="msapplication-TileColor" content="#3f51b5">
     <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- facebook opengraphs -->
+    <meta name="og:title" content="Test een verhaal van Ger" />
+    <meta name="og:type" content="article" />
+    <meta name="og:url" content="https://nutesten.nl/tekst" />
+    <meta name="og:site_name" content="TekstTester" />
+    <meta name="og:description" content="Verhalentester" />
+    <meta name="og:image" content="https://nutesten.nl/tekst/images/ger.jpg" />
 
     <script>
       // Setup Polymer options
@@ -128,9 +152,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 //      }
     </script>
 
-<!-- @todo: make relative againg when not using phpstorm -->
     <?php if ($use_vulcanized): ?>
-    <link rel="import" href="<?php echo $basepath; ?>src/my-app-vulcanized.html">
+    <link rel="import" href="<?php echo $basepath; ?>src/my-app-vulcanized.html<?php echo '?t='.strval($time_vulcanized_changed); ?>">
     <?php else: ?>
     <link rel="import" href="<?php echo $basepath; ?>src/my-app.html">
     <?php endif ?>
@@ -151,9 +174,34 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         }
       }
 
+      @keyframes textcolor {
+        0% {
+          color: blue;
+        }
+        25% {
+          color: green;
+        }
+        50% {
+          color: darkorange;
+        }
+        75% {
+          color: red;
+        }
+        100% {
+          color: black;
+        }
+      }
+
+      #waitmessage {
+        animation-duration: 2s;
+        animation-name: textcolor;
+        animation-iteration-count: infinite;
+      }
+
     </style>
   </head>
   <body>
+    <p id="waitmessage">De teksttester wordt geladen ...</p>
     <my-app
         id="my-app" sessionkey="<?php echo $sessionkey; ?>"
         textkey="<?php echo $textkey; ?>"

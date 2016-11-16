@@ -1,0 +1,16 @@
+# .htaccess file which assumes app runs in /tekst/
+# will force https
+
+# F apache bug!!! Cures not sending 304
+Header unset ETag
+
+# Cache largest file (versionstamped with querystring in index.php
+<FilesMatch "^my-app-vulcanized\.html$">
+Header Set Cache-Control "max-age=86400, public, must-revalidate"
+</FilesMatch>
+
+# Force https
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteCond %{REQUEST_URI} tekst
+RewriteRule ^(.*)$ https://nutesten.nl/tekst/$1 [R,L]
