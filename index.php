@@ -201,6 +201,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   </head>
   <body>
     <p id="waitmessage">De teksttester wordt geladen ...</p>
+
+    <?php
+    require "firebasecreds.php";
+    ?>
+
     <my-app
         id="my-app" sessionkey="<?php echo $sessionkey; ?>"
         textkey="<?php echo $textkey; ?>"

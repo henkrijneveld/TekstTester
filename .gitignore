@@ -4,3 +4,5 @@ build/
 src/my-app-vulcanized.html
 src/my-app-original.html
 enricher.php
+firebasecreds.html
+firebasecreds.php
