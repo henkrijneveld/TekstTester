@@ -52,9 +52,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
     <div class="wrapper">
       <h1>Dankjewel</h1>
-      <p>Ik ben reuzeblij dat je de moeite genomen hebt om mee te doen. Dankzij jouw hulp kan ik mijzelf verbeteren.</p>
-
-      <p>Ken je andere mensen die ook mee zouden willen doen? Breng ze op de hoogte!</p><br/>
+      <p>Fijn dat je de moeite hebt genomen om mee te doen. Op mijn facebook plaats ik over een paar weken de resultaten.</p>
+      <p>Ken je andere mensen die dit willen lezen en willen beoordelen? Vraag ze!</p><br/>
       <img id="facebook" src="../images/square-facebook.svg">
       <img id="twitter" src="../images/square-twitter.svg">
       <iron-icon id="mail" class="mail" icon="icons:mail"></iron-icon>
@@ -72,11 +71,16 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         };
 
         this.$.twitter.onclick = function() {
-          window.open('https://twitter.com/intent/tweet?text=https:%2F%2Fnutesten.nl/tekst%20Ik%20heb%20meegedaan!%20Doe%20jij%20het%20ook%3F', 'twshare', 'width=480,height=250');
+          window.open('https://twitter.com/intent/tweet?text=' +
+                  '𝑪𝒂𝒓𝒎𝒆𝒏%20𝒍𝒐𝒐𝒑𝒕%20𝒊𝒏%20𝒅𝒆%20𝒅𝒖𝒊𝒏𝒆𝒏.%20𝑯𝒂𝒂𝒓%20𝒗𝒆𝒓𝒍𝒆𝒅𝒆𝒏%20𝒉𝒂𝒂𝒍𝒕%20𝒉𝒂𝒂𝒓%20𝒊𝒏.' +
+                  '%20Lees%3A%20https:%2F%2Fnutesten.nl/tekst',
+                  'twshare',
+                  'width=480,height=250');
         };
 
         this.$.mail.onclick = function() {
-          window.location.href = "mailto:vul@naamin.nl?subject=Doe%20je%20ook%20mee%3F&body=Test%20een%20leuke%20tekst%20op:%20https:%2F%2Fnutesten.nl/tekst";
+          window.location.href = "mailto:e-mailadres%3Cvul%20het%20adres%20in%3E?subject=Doe%20mee." +
+                  "&body=Lees%20het%20verhaal%20over%20Carmen%20die%20door%20de%20duinen%20loopt:%20https:%2F%2Fnutesten.nl/tekst";
         }
       },
 

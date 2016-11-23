@@ -23,24 +23,41 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         padding: 10px;
       }
 
+      @media screen and (min-width: 1023px) {
+        #tekst, #buttons {
+          padding: 15px 40px 10px 40px;
+        }
+      }
+
+      h1 {
+        font-size: 30px;
+      }
+
     </style>
     <firebase-document id="logline">
     </firebase-document>
 
     <firebase-document id="textversie"
       path="/tekst/[[textkey]]/text"
-      data="{{text}}">
+      data="{{texttotaal}}">
     </firebase-document>
 
-    <div id="tekst">[[text]]</div>
-
+    <div id="tekst">
+      [[text]]
+    </div>
+    <div id="buttons">
     <paper-fab icon="forward" on-tap="nextPage"></paper-fab>
+    </div>
 
   </template>
 
   <script>
     Polymer({
       is: 'stap-lezen',
+
+      texts: [],
+
+      subpage: 0,
 
       properties: {
         text: {
@@ -49,21 +66,50 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           reflectToAttribute: true,
           notify: true,
           observer: '_textChanged'
+        },
+        texttotaal: {
+          value: "",
+          type: String,
+          reflectToAttribute: true,
+          notify: true,
+          observer: '_texttotaalChanged'
+        },
+        pagina: {
+          value: "",
+          type: String,
+          reflectToAttribute: true,
+          notify: true
         }
       },
 
       behaviors: [BehaviorViews],
+
+      _texttotaalChanged: function() {
+        if (this.texttotaal != "") { // @todo: maybe in promise
+          this.texts = this.texttotaal.split("<!-- break -->");
+          // Just read, initialize first element
+          this.set("text", this.texts[this.subpage]);
+        }
+      },
 
       _textChanged: function() {
         this.$.tekst.innerHTML = this.text;
       },
 
       ready: function() {
-
       },
 
       nextPage: function(event) {
-        this.jumpto("enquete");
+        this.subpage++;
+
+        if (this.subpage < this.texts.length) {
+          this.set("text", this.texts[this.subpage]);
+          this.writelogline("stap-lezen-" + (this.subpage + 1).toString());
+          this.$.tekst.style.paddingTop = "80px"; // @todo hack to resolve scrolling Polymer issue
+          this.$.tekst.scrollIntoView();
+        } else {
+          this.jumpto("enquete");
+        }
       }
 
     });

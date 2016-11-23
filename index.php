@@ -38,7 +38,7 @@
   //@todo better algorithm or cookie?
   $parts = explode(".", $ip);
   $type = intval($parts[0]) + intval($parts[1]) + intval($parts[2]) + intval($parts[3]);
-  $textkey = "versie" . chr(ord("a") + ($type % 3));
+  $textkey = "versie" . chr(ord("a") + ($type % 2));
 
   // cache control of vulcanized
   $time_vulcanized_changed = filemtime(__DIR__."/src/my-app-vulcanized.html");
@@ -98,11 +98,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <meta name="msapplication-tap-highlight" content="no">
 
     <!-- facebook opengraphs -->
-    <meta property="og:title" content="Test een verhaal van Ger" />
+    <meta property="og:title" content="Lees een verhaal van Ger" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="https://nutesten.nl/tekst" />
     <meta property="og:site_name" content="TekstTester" />
-    <meta property="og:description" content="Verhalentester" />
+    <meta property="og:description" content="Carmen loopt in de duinen. Haar verleden haalt haar in." />
     <meta property="og:image" content="https://nutesten.nl/tekst/images/ger.jpg" />
 
     <script>

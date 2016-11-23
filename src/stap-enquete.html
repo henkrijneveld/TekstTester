@@ -29,6 +29,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         max-width: 450px;
       }
 
+      .vraaglezer paper-radio-button {
+        padding: 10px 20px 10px 0;
+      }
     </style>
 
     <firebase-document id="logline">
@@ -40,23 +43,20 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <div class="wrapper">
       <h1>Dan nu een paar vragen</h1>
 
-      <!--
-          <paper-radio-group selected="3">
-            <paper-radio-button name="1"></paper-radio-button>
-            <paper-radio-button name="2"></paper-radio-button>
-            <paper-radio-button name="3"></paper-radio-button>
-            <paper-radio-button name="4"></paper-radio-button>
-            <paper-radio-button name="5"></paper-radio-button>
-          </paper-radio-group>
-      -->
+      <appraisal-el id="vraagprettig" oordeel="4">Is het prettig leesbaar?</appraisal-el>
 
-      <appraisal-el id="vraagleuk" oordeel="3"> Vond je het leuk om te lezen?</appraisal-el>
+      <appraisal-el id="vraagdialoog" oordeel="4">Wat vind je van de dialogen?</appraisal-el>
 
-      <appraisal-el id="vraaglanger" oordeel="3">Zou je een veel langer verhaal hierover willen lezen?</appraisal-el>
+      <appraisal-el id="vraagintrekken" oordeel="4">Ben je het verhaal 'ingetrokken'?</appraisal-el>
 
-      <appraisal-el id="vraagdialoog" oordeel="3">Wat vond je van de dialogen in het verhaal?</appraisal-el>
-
-      <appraisal-el id="vraagusability" oordeel="3">Was het goed leesbaar op je scherm?</appraisal-el>
+      <div class="vraaglezer">
+        Wat omschrijft jou het beste? Ik ben een ...<br/>
+        <paper-radio-group id="vraaglezer" selected="onbekend">
+          <paper-radio-button name="lezer">Lezer</paper-radio-button>
+          <paper-radio-button name="schrijver">Professioneel lezer</paper-radio-button>
+          <paper-radio-button name="auteur">Auteur</paper-radio-button>
+        </paper-radio-group>
+      </div>
 
       <paper-textarea rows="3" label="Opmerkingen? Typ ze hier!" id="vraagopmerking"></paper-textarea>
 
@@ -74,10 +74,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       nextPage: function (event) {
         var record = {
           tijd: this.timestring(),
-          vraagleuk: this.$.vraagleuk.oordeel,
-          vraaglanger: this.$.vraaglanger.oordeel,
+          vraagprettig: this.$.vraagprettig.oordeel,
           vraagdialoog: this.$.vraagdialoog.oordeel,
-          vraagusability: this.$.vraagusability.oordeel,
+          vraagintrekken: this.$.vraagintrekken.oordeel,
+          vraaglezer: this.$.vraaglezer.selected,
           vraagopmerking: this.$.vraagopmerking.value || ""
         };
         this.$.resultline.data = record;
