@@ -29,6 +29,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         max-width: 450px;
       }
 
+      .forwardbtn {
+        margin-top: 10px;
+      }
+
       .vraaglezer paper-radio-button {
         padding: 10px 20px 10px 0;
       }
@@ -53,12 +57,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         Wat omschrijft jou het beste? Ik ben een ...<br/>
         <paper-radio-group id="vraaglezer" selected="onbekend">
           <paper-radio-button name="lezer">Lezer</paper-radio-button>
-          <paper-radio-button name="schrijver">Professioneel lezer</paper-radio-button>
-          <paper-radio-button name="auteur">Auteur</paper-radio-button>
+          <paper-radio-button name="schrijver">Schrijver &eacute;n Lezer</paper-radio-button>
         </paper-radio-group>
       </div>
 
-      <paper-textarea rows="3" label="Opmerkingen? Typ ze hier!" id="vraagopmerking"></paper-textarea>
+      <paper-textarea rows="2" label="Opmerkingen? Typ ze hier!" id="vraagopmerking"></paper-textarea>
 
       <paper-fab class="forwardbtn" icon="forward" on-tap="nextPage"></paper-fab>
     </div>
