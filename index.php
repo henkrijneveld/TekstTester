@@ -43,6 +43,8 @@
   // cache control of vulcanized
   $time_vulcanized_changed = filemtime(__DIR__."/src/my-app-vulcanized.html");
 
+//  $textkey = "versieb";
+//  $use_vulcanized = false;
 /*
 echo "Basepath: ".$basepath;
 print_r($_SERVER);
@@ -63,6 +65,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
 
     <title>TekstTester</title>
@@ -105,7 +108,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <meta property="og:description" content="Carmen loopt in de duinen. Haar verleden haalt haar in." />
     <meta property="og:image" content="https://nutesten.nl/tekst/images/ger.jpg" />
 
+
+
     <script>
+      console.log("TekstTester is GO!");
       // Setup Polymer options
       window.Polymer = {
         dom: 'shadow',
@@ -115,7 +121,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       // Load webcomponentsjs polyfill if browser does not support native Web Components
       (function() {
         'use strict';
-
         var onload = function() {
           // For native Imports, manually fire WebComponentsReady so user code
           // can use the same code path for native and polyfill'd imports.
@@ -133,12 +138,14 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         );
 
         if (!webComponentsSupported) {
+          console.log("Loading webcomponents.js");
           var script = document.createElement('script');
           script.async = true;
           script.src = '<?php echo $basepath; ?>bower_components/webcomponentsjs/webcomponents-lite.min.js';
           script.onload = onload;
           document.head.appendChild(script);
         } else {
+          console.log("*NOT* Loading webcomponents.js");
           onload();
         }
       })();
@@ -200,6 +207,20 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     </style>
   </head>
   <body>
+
+    <!--[if lt IE 11]>
+  <h1>Uw browser wordt niet ondersteund</h1>
+  <p>U gebruikt een verouderde webbrowser. Deze wordt niet meer ondersteund door de leverancier sinds januari 2016.</p>
+  <p>Hierdoor komen geen veiligheidsupdates meer beschikbaar, en bent u bijzonder kwetsbaar op het internet!</p>
+  <p>Upgrade uw browser, of gebruik er één van een andere leverancier.</p>
+  <br/><br/>
+  <h1>Your web browser is not supported</h1>
+  <p>Your webbrowser is no longer maintained by the manufacturer since januar 2016.</p>
+  <p>Security patches will not be available since that date.</p>
+  <p>Please upgrade or use a different webbrowser.</p>
+  <![endif]-->
+
+  <!--[if gte IE 11]><!-->
     <p id="waitmessage">De teksttester wordt geladen ...</p>
 
     <?php
@@ -211,5 +232,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         textkey="<?php echo $textkey; ?>"
         basepath="<?php echo $basepath; ?>">
     </my-app>
+  <!--<![endif]-->
   </body>
 </html>

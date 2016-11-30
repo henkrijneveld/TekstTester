@@ -43,7 +43,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     </firebase-document>
 
     <div id="tekst">
-      [[text]]
+      <p id="pagenumber" class="pagenumber">pagina 1 van 2<br></p>
+      <div id="tekstbody">Tekst wordt geladen ...</div>
     </div>
     <div id="buttons">
     <paper-fab icon="forward" on-tap="nextPage"></paper-fab>
@@ -59,14 +60,17 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
       subpage: 0,
 
+      totalpages: 1,
+
       properties: {
-        text: {
-          value: "Tekst wordt geladen ...",
-          type: String,
-          reflectToAttribute: true,
-          notify: true,
-          observer: '_textChanged'
-        },
+//        text: {
+//          value: "Tekst wordt geladen ...",
+//          type: String
+//          reflectToAttribute: true,
+//          notify: true,
+//          readOnly: false,
+//          observer: '_textChanged'
+//        },
         texttotaal: {
           value: "",
           type: String,
@@ -79,15 +83,19 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       behaviors: [BehaviorViews],
 
       _texttotaalChanged: function() {
+        debugger;
         if (this.texttotaal != "") { // @todo: maybe in promise
           this.texts = this.texttotaal.split("<!-- break -->");
           // Just read, initialize first element
-          this.set("text", this.texts[this.subpage]);
+          this.totalpages = this.texts.length;
+//          this.set("text", this.texts[this.subpage]); // will kill ie 11
+          this._textChanged(this.texts[this.subpage]);
         }
       },
 
-      _textChanged: function() {
-        this.$.tekst.innerHTML = this.text;
+      _textChanged: function(text) {
+        this.$.pagenumber.innerHTML = "pagina " + (this.subpage + 1) + " van " + this.totalpages;
+        this.$.tekstbody.innerHTML = text;
       },
 
       ready: function() {
@@ -95,9 +103,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
       nextPage: function(event) {
         this.subpage++;
-
+debugger;
         if (this.subpage < this.texts.length) {
-          this.set("text", this.texts[this.subpage]);
+//          this.set("text", this.texts[this.subpage]); // will burn IE 11
+          this._textChanged(this.texts[this.subpage]);
+
           this.writelogline("stap-lezen-" + (this.subpage + 1).toString());
           this.$.tekst.style.paddingTop = "80px"; // @todo hack to resolve scrolling Polymer issue
           this.$.tekst.scrollIntoView();

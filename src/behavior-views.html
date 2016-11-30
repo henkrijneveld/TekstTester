@@ -22,7 +22,9 @@
             name: logname
           };
           this.$.logline.data = record;
-          this.$.logline.save("/result/" + this.sessionkey, this.timestring()).then(function(v) {}, function(v) {alert(v.message)});
+          var datakey = "/result/" + this.sessionkey;
+          var datarecord = this.timestring();
+          this.$.logline.save(datakey, datarecord).then(function(v) {}, function(v) {console.log("ERROR!"); console.log(v.message); alert("Fout bij schrijven van gegevens. Probeer het later nog eens.")});
         }
     }
 </script>
