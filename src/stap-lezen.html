@@ -83,7 +83,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       behaviors: [BehaviorViews],
 
       _texttotaalChanged: function() {
-        debugger;
         if (this.texttotaal != "") { // @todo: maybe in promise
           this.texts = this.texttotaal.split("<!-- break -->");
           // Just read, initialize first element
@@ -103,7 +102,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
       nextPage: function(event) {
         this.subpage++;
-debugger;
         if (this.subpage < this.texts.length) {
 //          this.set("text", this.texts[this.subpage]); // will burn IE 11
           this._textChanged(this.texts[this.subpage]);

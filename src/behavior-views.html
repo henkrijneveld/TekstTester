@@ -24,7 +24,12 @@
           this.$.logline.data = record;
           var datakey = "/result/" + this.sessionkey;
           var datarecord = this.timestring();
-          this.$.logline.save(datakey, datarecord).then(function(v) {}, function(v) {console.log("ERROR!"); console.log(v.message); alert("Fout bij schrijven van gegevens. Probeer het later nog eens.")});
+          this.$.logline.save(datakey, datarecord).then(
+              function(v) {},
+              function(v) {
+                console.log("ERROR!");
+                console.log(v.message);
+                alert("Fout bij schrijven van gegevens. Probeer het later nog eens.")});
         }
     }
 </script>

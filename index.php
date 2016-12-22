@@ -204,11 +204,20 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         animation-iteration-count: infinite;
       }
 
+      /* kill IE 10 and below */
+      .oldie {
+        display: none;
+        display: block\9;
+      }
+      .newie {
+        display: none\9;
+      }
+
     </style>
   </head>
   <body>
 
-    <!--[if lt IE 11]>
+  <div class="oldie">
   <h1>Uw browser wordt niet ondersteund</h1>
   <p>U gebruikt een verouderde webbrowser. Deze wordt niet meer ondersteund door de leverancier sinds januari 2016.</p>
   <p>Hierdoor komen geen veiligheidsupdates meer beschikbaar, en bent u bijzonder kwetsbaar op het internet!</p>
@@ -218,9 +227,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
   <p>Your webbrowser is no longer maintained by the manufacturer since januar 2016.</p>
   <p>Security patches will not be available since that date.</p>
   <p>Please upgrade or use a different webbrowser.</p>
-  <![endif]-->
+  </div>
 
-  <!--[if gte IE 11]><!-->
+  <div class="newie">
     <p id="waitmessage">De teksttester wordt geladen ...</p>
 
     <?php
@@ -232,6 +241,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         textkey="<?php echo $textkey; ?>"
         basepath="<?php echo $basepath; ?>">
     </my-app>
-  <!--<![endif]-->
+  </div>
+
   </body>
 </html>
