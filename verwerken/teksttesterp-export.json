@@ -1,0 +1,749 @@
+{
+  "result": {
+    "2016-12-21=10:12:43:422100=wovuyVytm4fQVf28MVMSEiTJaC48K0+D0cNBLqQr9NI=": {
+      "11:12:49:969": {
+        "name": "stap-welkom"
+      },
+      "date": "2016-12-21",
+      "referrer": "",
+      "time": "11:12:49.86",
+      "version": "versiea"
+    },
+    "2016-12-21=10:23:44:009100=wR+i09QU08DrY72k-2zQ3AhASi88vhPmRH6g3c4hmJ4=": {
+      "11:23:58:689": {
+        "name": "stap-welkom"
+      },
+      "11:24:05:764": {
+        "name": "stap-lezen-2"
+      },
+      "11:24:28:261": {
+        "name": "stap-lezen-2"
+      },
+      "date": "2016-12-21",
+      "referrer": "https://t.co/GCWN2FZd4O",
+      "time": "11:23:57.976",
+      "version": "versiea"
+    },
+    "2016-12-21=10:34:34:547700=m8mBe6Ht-NOzq6T9D8djXwcOQs1HlgVCiRHij8Q79po=": {
+      "11:34:37:696": {
+        "name": "stap-welkom"
+      },
+      "date": "2016-12-21",
+      "referrer": "http://m.facebook.com",
+      "time": "11:34:37.153",
+      "version": "versieb"
+    },
+    "2016-12-21=10:42:43:000500=Rx36qEJQFwKixKgZTg2Bv5GTNAKU+gA1oFIvJNUisvs=": {
+      "11:39:46:114": {
+        "name": "stap-welkom"
+      },
+      "11:39:51:781": {
+        "name": "stap-lezen-2"
+      },
+      "11:46:27:471": {
+        "name": "stap-lezen-2"
+      },
+      "11:50:28:036": {
+        "name": "stap-enquete"
+      },
+      "11:50:42:076": {
+        "name": "stap-bedankt"
+      },
+      "Enquete": {
+        "tijd": "11:50:42:012",
+        "vraagdialoog": "6",
+        "vraagintrekken": "7",
+        "vraaglezer": "lezer",
+        "vraagopmerking": "",
+        "vraagprettig": "7"
+      },
+      "date": "2016-12-21",
+      "referrer": "https://www.facebook.com/",
+      "time": "11:39:46.14",
+      "version": "versiea"
+    },
+    "2016-12-21=10:45:06:424900=qwVhYERFFEL2MUDnwXWnh6Y0rf4746JF4Rqx2JunQsc=": {
+      "11:45:05:146": {
+        "name": "stap-welkom"
+      },
+      "13:48:21:674": {
+        "name": "stap-lezen-2"
+      },
+      "13:50:17:818": {
+        "name": "stap-lezen-2"
+      },
+      "13:52:25:338": {
+        "name": "stap-enquete"
+      },
+      "13:52:44:828": {
+        "name": "stap-bedankt"
+      },
+      "Enquete": {
+        "tijd": "13:52:44:785",
+        "vraagdialoog": "7",
+        "vraagintrekken": "7",
+        "vraaglezer": "lezer",
+        "vraagopmerking": "",
+        "vraagprettig": "7"
+      },
+      "date": "2016-12-21",
+      "referrer": "https://www.facebook.com/",
+      "time": "11:45:5.81",
+      "version": "versieb"
+    },
+    "2016-12-21=11:02:53:591100=y3F0uJd5T3KlXcItrR+kkaKv1-dnyYS1EEPFY0QjQu4=": {
+      "12:03:00:876": {
+        "name": "stap-welkom"
+      },
+      "12:03:13:251": {
+        "name": "stap-lezen"
+      },
+      "date": "2016-12-21",
+      "referrer": "http://m.facebook.com",
+      "time": "12:2:59.580",
+      "version": "versieb"
+    },
+    "2016-12-21=11:31:31:710700=GWONwv2j6boJafjZhc7Agl0AjeoVs4yln8R+c8oO9KE=": {
+      "12:31:35:722": {
+        "name": "stap-welkom"
+      },
+      "12:31:42:360": {
+        "name": "stap-lezen-2"
+      },
+      "12:32:00:581": {
+        "name": "stap-lezen-2"
+      },
+      "12:32:22:515": {
+        "name": "stap-enquete"
+      },
+      "date": "2016-12-21",
+      "referrer": "",
+      "time": "12:31:35.379",
+      "version": "versieb"
+    },
+    "2016-12-21=12:01:01:100800=Oo3e89InYgZafCeHbNW86ZTg3alncaoMYze54WSy8Ug=": {
+      "22:36:49:121": {
+        "name": "stap-welkom"
+      },
+      "date": "2016-12-21",
+      "referrer": "http://m.facebook.com",
+      "time": "22:36:48.704",
+      "version": "versieb"
+    },
+    "2016-12-21=12:02:44:394200=ujQVyOSp1FymAdgD-AimRsr7gDKx3SEzwGZoQowe3QE=": {
+      "13:02:46:595": {
+        "name": "stap-welkom"
+      },
+      "13:02:54:285": {
+        "name": "stap-lezen"
+      },
+      "date": "2016-12-21",
+      "referrer": "https://lm.facebook.com/l.php?u=https%3A%2F%2Fnutesten.nl%2Ftekst%2F&h=2AQEWHeZi&enc=AZO1gwh3pMA5K6EuMOPLtd6Cr5yg_xGmhlKjOJw6XGNzdPfyWKsAnWJ6Yw4Tpp_gbrdVv64fo5pXNcejyZF30BeiHCigR-vw-eejl7r0F2X7D2-h-VGC_IOs19SP_xi5WbGRNDHEOZdFaufQ2Z-j2mV9PsTWVSLMh5Il998sbw07kARLVUPLvRpwpZoyp82cBIs&s=1",
+      "time": "13:2:46.299",
+      "version": "versiea"
+    },
+    "2016-12-21=12:11:54:087100=AYR+8xMWcjZczet7kUyJGSxlVXlUKIyBbqe4WQ6L0CY=": {
+      "13:12:00:420": {
+        "name": "stap-welkom"
+      },
+      "13:12:05:598": {
+        "name": "stap-lezen"
+      },
+      "date": "2016-12-21",
+      "referrer": "",
+      "time": "13:11:59.977",
+      "version": "versieb"
+    },
+    "2016-12-21=12:52:10:659300=6VPIxjbaGe9djbQWnOphDwHahq98weUuS+J+6LwYM6c=": {
+      "13:52:11:489": {
+        "name": "stap-welkom"
+      },
+      "13:52:18:306": {
+        "name": "stap-lezen"
+      },
+      "date": "2016-12-21",
+      "referrer": "https://t.co/GCWN2FZd4O",
+      "time": "13:52:11.384",
+      "version": "versieb"
+    },
+    "2016-12-21=14:12:17:945700=ray4vgzMLB6UdS-9ahC3DAR7MF+B8t69fzkMdblW9qU=": {
+      "15:12:34:305": {
+        "name": "stap-welkom"
+      },
+      "15:12:49:098": {
+        "name": "stap-lezen"
+      },
+      "date": "2016-12-21",
+      "referrer": "http://m.facebook.com",
+      "time": "15:12:33.231",
+      "version": "versieb"
+    },
+    "2016-12-21=14:22:11:870400=Te96Kyydr9wWjvXtgbT6D4ouOm2UZavJsJcMqp-1Tbk=": {
+      "15:22:13:292": {
+        "name": "stap-welkom"
+      },
+      "15:22:19:524": {
+        "name": "stap-lezen-2"
+      },
+      "15:27:17:983": {
+        "name": "stap-lezen-2"
+      },
+      "15:30:39:593": {
+        "name": "stap-enquete"
+      },
+      "15:31:12:993": {
+        "name": "stap-bedankt"
+      },
+      "Enquete": {
+        "tijd": "15:31:12:887",
+        "vraagdialoog": "4",
+        "vraagintrekken": "4",
+        "vraaglezer": "lezer",
+        "vraagopmerking": "",
+        "vraagprettig": "4"
+      },
+      "date": "2016-12-21",
+      "referrer": "http://m.facebook.com",
+      "time": "15:22:13.142",
+      "version": "versiea"
+    },
+    "2016-12-21=14:57:27:662900=3vkOcqnbtehJ58aHCr4MOVWCKyWpL6wiZKRwg3yDNjs=": {
+      "15:57:28:663": {
+        "name": "stap-welkom"
+      },
+      "15:57:32:238": {
+        "name": "stap-lezen"
+      },
+      "date": "2016-12-21",
+      "referrer": "android-app://m.facebook.com",
+      "time": "15:57:28.530",
+      "version": "versieb"
+    },
+    "2016-12-21=15:12:38:010000=ODvCOj4-IudONrgC5ZA5v6AL9ImjNonELG4Ar-M5PiQ=": {
+      "16:12:50:677": {
+        "name": "stap-welkom"
+      },
+      "16:12:58:361": {
+        "name": "stap-lezen-2"
+      },
+      "16:15:15:603": {
+        "name": "stap-lezen-2"
+      },
+      "16:21:10:661": {
+        "name": "stap-enquete"
+      },
+      "16:23:34:084": {
+        "name": "stap-bedankt"
+      },
+      "Enquete": {
+        "tijd": "16:23:33:410",
+        "vraagdialoog": "6",
+        "vraagintrekken": "6",
+        "vraaglezer": "lezer",
+        "vraagopmerking": "",
+        "vraagprettig": "6"
+      },
+      "date": "2016-12-21",
+      "referrer": "http://m.facebook.com",
+      "time": "16:12:49.537",
+      "version": "versieb"
+    },
+    "2016-12-21=15:20:50:790300=6311SrXCW3AQ0XuSGYISIkSzMID2FML-PTAI3bfzn0o=": {
+      "16:21:08:847": {
+        "name": "stap-welkom"
+      },
+      "16:21:15:293": {
+        "name": "stap-lezen-2"
+      },
+      "16:24:40:577": {
+        "name": "stap-lezen-2"
+      },
+      "16:28:54:887": {
+        "name": "stap-enquete"
+      },
+      "16:29:15:896": {
+        "name": "stap-bedankt"
+      },
+      "Enquete": {
+        "tijd": "16:29:15:804",
+        "vraagdialoog": "4",
+        "vraagintrekken": "5",
+        "vraaglezer": "lezer",
+        "vraagopmerking": "",
+        "vraagprettig": "4"
+      },
+      "date": "2016-12-21",
+      "referrer": "https://www.facebook.com/",
+      "time": "16:21:8.549",
+      "version": "versiea"
+    },
+    "2016-12-21=15:23:56:909900=U1ViYp-rtDag7XqsTjGDRdjT5LRCqbSlc1ZC14+FBsE=": {
+      "16:24:01:053": {
+        "name": "stap-welkom"
+      },
+      "16:24:05:480": {
+        "name": "stap-lezen-2"
+      },
+      "16:24:11:950": {
+        "name": "stap-lezen-2"
+      },
+      "16:24:14:414": {
+        "name": "stap-enquete"
+      },
+      "date": "2016-12-21",
+      "referrer": "http://m.facebook.com",
+      "time": "16:24:0.358",
+      "version": "versieb"
+    },
+    "2016-12-21=15:26:56:585000=ESVpMcJw5QrW-qAktjenUZkIX22VbjJ8jRFNid2-YwQ=": {
+      "22:27:07:996": {
+        "name": "stap-welkom"
+      },
+      "22:27:18:012": {
+        "name": "stap-lezen-2"
+      },
+      "22:28:58:985": {
+        "name": "stap-lezen-2"
+      },
+      "22:30:32:724": {
+        "name": "stap-enquete"
+      },
+      "date": "2016-12-21",
+      "referrer": "http://m.facebook.com",
+      "time": "22:27:6.706",
+      "version": "versieb"
+    },
+    "2016-12-21=16:31:57:108900=4P9yjliv9VRyGxAJxMAkUQkssQiWPjLOf+mrSsajVzM=": {
+      "17:35:27:163": {
+        "name": "stap-welkom"
+      },
+      "17:35:29:067": {
+        "name": "stap-lezen-2"
+      },
+      "17:35:31:847": {
+        "name": "stap-lezen-2"
+      },
+      "17:38:14:538": {
+        "name": "stap-enquete"
+      },
+      "17:39:09:380": {
+        "name": "stap-bedankt"
+      },
+      "Enquete": {
+        "tijd": "17:39:09:211",
+        "vraagdialoog": "7",
+        "vraagintrekken": "7",
+        "vraaglezer": "schrijver",
+        "vraagopmerking": "Snel het vervolg svp. Ben benieuwd naar meer.",
+        "vraagprettig": "7"
+      },
+      "date": "2016-12-21",
+      "referrer": "http://m.facebook.com/",
+      "time": "17:35:27.3",
+      "version": "versiea"
+    },
+    "2016-12-21=16:52:26:558400=ccQJ5Nv9Xcb1PBqzdc3NXPCzlFvDHiWVoh5108AZQKo=": {
+      "17:52:28:908": {
+        "name": "stap-welkom"
+      },
+      "17:52:37:172": {
+        "name": "stap-lezen-2"
+      },
+      "17:54:09:029": {
+        "name": "stap-lezen-2"
+      },
+      "17:54:14:586": {
+        "name": "stap-enquete"
+      },
+      "17:54:22:776": {
+        "name": "stap-bedankt"
+      },
+      "Enquete": {
+        "tijd": "17:54:22:660",
+        "vraagdialoog": "4",
+        "vraagintrekken": "4",
+        "vraaglezer": "onbekend",
+        "vraagopmerking": "",
+        "vraagprettig": "4"
+      },
+      "date": "2016-12-21",
+      "referrer": "http://m.facebook.com",
+      "time": "17:52:28.561",
+      "version": "versiea"
+    },
+    "2016-12-21=17:08:33:769800=ZQn0o0pQWg9jO5Our0BofwbN2Usg4C5P-jyZ4WGWAjU=": {
+      "18:08:37:668": {
+        "name": "stap-welkom"
+      },
+      "date": "2016-12-21",
+      "referrer": "http://m.facebook.com/",
+      "time": "18:8:35.371",
+      "version": "versiea"
+    },
+    "2016-12-21=17:17:48:030200=QXggVotZyDni4cMezlePRMMh310kW7cgTnyEvzcW2v4=": {
+      "18:18:17:837": {
+        "name": "stap-welkom"
+      },
+      "18:18:22:479": {
+        "name": "stap-lezen"
+      },
+      "date": "2016-12-21",
+      "referrer": "http://m.facebook.com/",
+      "time": "18:18:17.492",
+      "version": "versieb"
+    },
+    "2016-12-21=18:10:20:133200=7rsC7t13bj8jnZ21xHphRssJ8rCrbGXLff0KmyQ90zo=": {
+      "19:10:22:250": {
+        "name": "stap-welkom"
+      },
+      "19:10:29:931": {
+        "name": "stap-lezen-2"
+      },
+      "19:14:49:054": {
+        "name": "stap-lezen-2"
+      },
+      "19:18:31:231": {
+        "name": "stap-enquete"
+      },
+      "19:18:53:826": {
+        "name": "stap-bedankt"
+      },
+      "Enquete": {
+        "tijd": "19:18:53:524",
+        "vraagdialoog": "6",
+        "vraagintrekken": "6",
+        "vraaglezer": "lezer",
+        "vraagopmerking": "",
+        "vraagprettig": "7"
+      },
+      "date": "2016-12-21",
+      "referrer": "http://m.facebook.com",
+      "time": "19:10:21.986",
+      "version": "versiea"
+    },
+    "2016-12-21=18:19:18:978500=WhxVfVtWQP16ZDQbBfnQNuQj8QxWuZ64OBvdacu-dkc=": {
+      "19:19:20:179": {
+        "name": "stap-welkom"
+      },
+      "19:19:25:889": {
+        "name": "stap-lezen-2"
+      },
+      "19:21:53:914": {
+        "name": "stap-lezen-2"
+      },
+      "19:24:28:237": {
+        "name": "stap-enquete"
+      },
+      "19:24:49:596": {
+        "name": "stap-bedankt"
+      },
+      "Enquete": {
+        "tijd": "19:24:49:469",
+        "vraagdialoog": "7",
+        "vraagintrekken": "7",
+        "vraaglezer": "lezer",
+        "vraagopmerking": "",
+        "vraagprettig": "7"
+      },
+      "date": "2016-12-21",
+      "referrer": "http://m.facebook.com",
+      "time": "19:19:20.55",
+      "version": "versiea"
+    },
+    "2016-12-21=18:38:58:770300=7c9gMwqhdvVSuns24n2fFh2IhYauvPcnWwzrTHjZ7y8=": {
+      "19:38:55:833": {
+        "name": "stap-welkom"
+      },
+      "19:38:57:806": {
+        "name": "stap-lezen-2"
+      },
+      "19:39:10:282": {
+        "name": "stap-lezen-2"
+      },
+      "date": "2016-12-21",
+      "referrer": "https://www.facebook.com/",
+      "time": "19:38:55.781",
+      "version": "versieb"
+    },
+    "2016-12-21=18:54:30:234400=H3Ueph-zxwKtPOHUyA8lOXXfs61KE4DxbXsvXTQT2v4=": {
+      "19:54:31:597": {
+        "name": "stap-welkom"
+      },
+      "19:54:36:239": {
+        "name": "stap-lezen"
+      },
+      "date": "2016-12-21",
+      "referrer": "http://m.facebook.com",
+      "time": "19:54:31.397",
+      "version": "versiea"
+    },
+    "2016-12-21=19:44:01:155400=0pfYUWBhfsEYgN4jBIK4-cfHSaPYxW5CjJvSFawS6tE=": {
+      "20:44:50:964": {
+        "name": "stap-welkom"
+      },
+      "20:44:55:729": {
+        "name": "stap-lezen-2"
+      },
+      "20:47:38:323": {
+        "name": "stap-lezen-2"
+      },
+      "20:49:44:716": {
+        "name": "stap-enquete"
+      },
+      "20:50:08:845": {
+        "name": "stap-bedankt"
+      },
+      "Enquete": {
+        "tijd": "20:50:08:649",
+        "vraagdialoog": "5",
+        "vraagintrekken": "6",
+        "vraaglezer": "lezer",
+        "vraagopmerking": "",
+        "vraagprettig": "6"
+      },
+      "date": "2016-12-21",
+      "referrer": "https://www.facebook.com/",
+      "time": "20:44:50.486",
+      "version": "versiea"
+    },
+    "2016-12-21=19:46:27:570000=qqHK3eqW+YFocjuQpikDBVH4HCj5jGDnRG9IbIhX17g=": {
+      "21:15:43:343": {
+        "name": "stap-welkom"
+      },
+      "21:15:53:258": {
+        "name": "stap-lezen"
+      },
+      "date": "2016-12-21",
+      "referrer": "http://m.facebook.com/",
+      "time": "21:15:42.840",
+      "version": "versiea"
+    },
+    "2016-12-21=20:23:14:408700=xfVPhIPBIbBgSei52Q8W3SjjcCNY1NULfcAAsrZjzXQ=": {
+      "09:23:30:489": {
+        "name": "stap-welkom"
+      },
+      "09:23:37:420": {
+        "name": "stap-lezen-2"
+      },
+      "09:26:10:040": {
+        "name": "stap-lezen-2"
+      },
+      "09:28:11:004": {
+        "name": "stap-enquete"
+      },
+      "09:28:29:755": {
+        "name": "stap-bedankt"
+      },
+      "Enquete": {
+        "tijd": "09:28:27:161",
+        "vraagdialoog": "6",
+        "vraagintrekken": "7",
+        "vraaglezer": "lezer",
+        "vraagopmerking": "",
+        "vraagprettig": "7"
+      },
+      "date": "2016-12-22",
+      "referrer": "http://m.facebook.com/",
+      "time": "9:23:29.755",
+      "version": "versieb"
+    },
+    "2016-12-21=22:12:25:467200=tVD9jiemE154gFu-BeE1O9xQ3I2qF20666xrArhOsM0=": {
+      "23:12:26:969": {
+        "name": "stap-welkom"
+      },
+      "23:12:33:026": {
+        "name": "stap-lezen-2"
+      },
+      "23:15:16:657": {
+        "name": "stap-lezen-2"
+      },
+      "23:15:33:164": {
+        "name": "stap-enquete"
+      },
+      "date": "2016-12-21",
+      "referrer": "",
+      "time": "23:12:26.456",
+      "version": "versiea"
+    },
+    "2016-12-21=22:27:55:134600=pWxkj1HbcGGX7RfFjUBsZA0OJnrRjfjmmNxz0BT+Ftc=": {
+      "23:28:11:723": {
+        "name": "stap-welkom"
+      },
+      "date": "2016-12-21",
+      "referrer": "https://www.facebook.com/",
+      "time": "23:28:11.505",
+      "version": "versiea"
+    },
+    "2016-12-21=23:28:50:044100=jm6v42W2zwhs6ZY0mqw+R1eojLJBtQtT7aSb2nEmL9Q=": {
+      "00:28:51:811": {
+        "name": "stap-welkom"
+      },
+      "00:29:00:426": {
+        "name": "stap-lezen-2"
+      },
+      "00:35:31:470": {
+        "name": "stap-lezen-2"
+      },
+      "00:40:07:908": {
+        "name": "stap-enquete"
+      },
+      "00:45:03:061": {
+        "name": "stap-bedankt"
+      },
+      "Enquete": {
+        "tijd": "00:45:02:881",
+        "vraagdialoog": "5",
+        "vraagintrekken": "5",
+        "vraaglezer": "lezer",
+        "vraagopmerking": "Als Carmen de pub binnen komt, wordt ze omhelst door haar vader. Haar vader is blijkbaar al binnen. Maar wat deed hij daar dan? Stond hij te wachten? Zat hij al? Ik kon dat stukje niet in beelden omzetten. De rest wel!",
+        "vraagprettig": "5"
+      },
+      "date": "2016-12-22",
+      "referrer": "http://m.facebook.com",
+      "time": "0:28:51.700",
+      "version": "versiea"
+    },
+    "2016-12-21=23:49:51:163400=TDPG5gaV2uBcuN238lWEVi+2r1+8AATKCShyaWdCkO4=": {
+      "00:49:50:325": {
+        "name": "stap-welkom"
+      },
+      "00:49:59:996": {
+        "name": "stap-lezen-2"
+      },
+      "00:52:55:474": {
+        "name": "stap-lezen-2"
+      },
+      "00:55:13:787": {
+        "name": "stap-enquete"
+      },
+      "00:55:33:990": {
+        "name": "stap-bedankt"
+      },
+      "Enquete": {
+        "tijd": "00:55:33:935",
+        "vraagdialoog": "4",
+        "vraagintrekken": "4",
+        "vraaglezer": "schrijver",
+        "vraagopmerking": "",
+        "vraagprettig": "4"
+      },
+      "date": "2016-12-22",
+      "referrer": "https://www.facebook.com/",
+      "time": "0:49:50.215",
+      "version": "versieb"
+    },
+    "2016-12-22=02:04:38:693000=+Ubmd+dzMIKiILpuWicmOy1k0OlXWDenPOfP+wSjf88=": {
+      "03:04:39:848": {
+        "name": "stap-welkom"
+      },
+      "03:04:48:888": {
+        "name": "stap-lezen"
+      },
+      "date": "2016-12-22",
+      "referrer": "https://www.facebook.com/",
+      "time": "3:4:39.707",
+      "version": "versieb"
+    },
+    "2016-12-22=06:05:53:801500=gzaFkJ64gvE7pOf1YE7kHhlgj2v5bVZhoOFTGrfWqyI=": {
+      "07:05:57:426": {
+        "name": "stap-welkom"
+      },
+      "07:06:06:382": {
+        "name": "stap-lezen-2"
+      },
+      "07:06:15:100": {
+        "name": "stap-lezen-2"
+      },
+      "07:06:21:511": {
+        "name": "stap-enquete"
+      },
+      "07:06:37:190": {
+        "name": "stap-bedankt"
+      },
+      "Enquete": {
+        "tijd": "07:06:36:878",
+        "vraagdialoog": "4",
+        "vraagintrekken": "4",
+        "vraaglezer": "onbekend",
+        "vraagopmerking": "",
+        "vraagprettig": "4"
+      },
+      "date": "2016-12-22",
+      "referrer": "https://www.facebook.com/",
+      "time": "7:5:57.223",
+      "version": "versiea"
+    },
+    "2016-12-22=06:08:03:663100=sASyMHNY-G8i0Kz46kENu-oL0Xo6agItMHKhl-KZhp8=": {
+      "07:08:06:473": {
+        "name": "stap-welkom"
+      },
+      "07:08:09:251": {
+        "name": "stap-lezen-2"
+      },
+      "07:08:14:917": {
+        "name": "stap-lezen-2"
+      },
+      "07:08:19:433": {
+        "name": "stap-enquete"
+      },
+      "date": "2016-12-22",
+      "referrer": "https://www.facebook.com/",
+      "time": "7:8:6.327",
+      "version": "versiea"
+    },
+    "2016-12-22=06:56:14:242900=tZL6P0cuLIAsHGpo8wWAdBbqeA4pdarrzBDOMhMdn9Y=": {
+      "07:56:17:469": {
+        "name": "stap-welkom"
+      },
+      "07:56:27:110": {
+        "name": "stap-lezen"
+      },
+      "date": "2016-12-22",
+      "referrer": "http://m.facebook.com",
+      "time": "7:56:17.76",
+      "version": "versieb"
+    },
+    "2016-12-22=09:54:45:222600=b1zr-o5GvMgcshVbkNguyTs0X1xQ56YMMMSxGIg2Rdo=": {
+      "10:54:46:931": {
+        "name": "stap-welkom"
+      },
+      "10:54:52:196": {
+        "name": "stap-lezen"
+      },
+      "date": "2016-12-22",
+      "referrer": "https://www.facebook.com/",
+      "time": "10:54:46.838",
+      "version": "versiea"
+    },
+    "2016-12-22=09:56:56:389200=BjanB1BhgOduifvfDA02yzrqV4t3ZEZ0lBW76zv6rgA=": {
+      "10:57:01:603": {
+        "name": "stap-welkom"
+      },
+      "10:57:21:907": {
+        "name": "stap-lezen-2"
+      },
+      "11:07:50:062": {
+        "name": "stap-lezen-2"
+      },
+      "11:16:14:753": {
+        "name": "stap-enquete"
+      },
+      "11:17:14:051": {
+        "name": "stap-bedankt"
+      },
+      "Enquete": {
+        "tijd": "11:17:13:194",
+        "vraagdialoog": "4",
+        "vraagintrekken": "5",
+        "vraaglezer": "lezer",
+        "vraagopmerking": "",
+        "vraagprettig": "6"
+      },
+      "date": "2016-12-22",
+      "referrer": "http://m.facebook.com/",
+      "time": "10:57:1.17",
+      "version": "versiea"
+    }
+  }
+}
+
