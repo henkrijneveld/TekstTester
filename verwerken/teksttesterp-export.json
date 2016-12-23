@@ -1,749 +1,879 @@
 {
-  "result": {
-    "2016-12-21=10:12:43:422100=wovuyVytm4fQVf28MVMSEiTJaC48K0+D0cNBLqQr9NI=": {
-      "11:12:49:969": {
-        "name": "stap-welkom"
+  "result" : {
+    "2016-12-21=10:12:43:422100=wovuyVytm4fQVf28MVMSEiTJaC48K0+D0cNBLqQr9NI=" : {
+      "11:12:49:969" : {
+        "name" : "stap-welkom"
       },
-      "date": "2016-12-21",
-      "referrer": "",
-      "time": "11:12:49.86",
-      "version": "versiea"
+      "date" : "2016-12-21",
+      "referrer" : "",
+      "time" : "11:12:49.86",
+      "version" : "versiea"
     },
-    "2016-12-21=10:23:44:009100=wR+i09QU08DrY72k-2zQ3AhASi88vhPmRH6g3c4hmJ4=": {
-      "11:23:58:689": {
-        "name": "stap-welkom"
+    "2016-12-21=10:23:44:009100=wR+i09QU08DrY72k-2zQ3AhASi88vhPmRH6g3c4hmJ4=" : {
+      "11:23:58:689" : {
+        "name" : "stap-welkom"
       },
-      "11:24:05:764": {
-        "name": "stap-lezen-2"
+      "11:24:05:764" : {
+        "name" : "stap-lezen-2"
       },
-      "11:24:28:261": {
-        "name": "stap-lezen-2"
+      "11:24:28:261" : {
+        "name" : "stap-lezen-2"
       },
-      "date": "2016-12-21",
-      "referrer": "https://t.co/GCWN2FZd4O",
-      "time": "11:23:57.976",
-      "version": "versiea"
+      "date" : "2016-12-21",
+      "referrer" : "https://t.co/GCWN2FZd4O",
+      "time" : "11:23:57.976",
+      "version" : "versiea"
     },
-    "2016-12-21=10:34:34:547700=m8mBe6Ht-NOzq6T9D8djXwcOQs1HlgVCiRHij8Q79po=": {
-      "11:34:37:696": {
-        "name": "stap-welkom"
+    "2016-12-21=10:34:34:547700=m8mBe6Ht-NOzq6T9D8djXwcOQs1HlgVCiRHij8Q79po=" : {
+      "11:34:37:696" : {
+        "name" : "stap-welkom"
       },
-      "date": "2016-12-21",
-      "referrer": "http://m.facebook.com",
-      "time": "11:34:37.153",
-      "version": "versieb"
+      "date" : "2016-12-21",
+      "referrer" : "http://m.facebook.com",
+      "time" : "11:34:37.153",
+      "version" : "versieb"
     },
-    "2016-12-21=10:42:43:000500=Rx36qEJQFwKixKgZTg2Bv5GTNAKU+gA1oFIvJNUisvs=": {
-      "11:39:46:114": {
-        "name": "stap-welkom"
+    "2016-12-21=10:42:43:000500=Rx36qEJQFwKixKgZTg2Bv5GTNAKU+gA1oFIvJNUisvs=" : {
+      "11:39:46:114" : {
+        "name" : "stap-welkom"
       },
-      "11:39:51:781": {
-        "name": "stap-lezen-2"
+      "11:39:51:781" : {
+        "name" : "stap-lezen-2"
       },
-      "11:46:27:471": {
-        "name": "stap-lezen-2"
+      "11:46:27:471" : {
+        "name" : "stap-lezen-2"
       },
-      "11:50:28:036": {
-        "name": "stap-enquete"
+      "11:50:28:036" : {
+        "name" : "stap-enquete"
       },
-      "11:50:42:076": {
-        "name": "stap-bedankt"
+      "11:50:42:076" : {
+        "name" : "stap-bedankt"
       },
-      "Enquete": {
-        "tijd": "11:50:42:012",
-        "vraagdialoog": "6",
-        "vraagintrekken": "7",
-        "vraaglezer": "lezer",
-        "vraagopmerking": "",
-        "vraagprettig": "7"
+      "Enquete" : {
+        "tijd" : "11:50:42:012",
+        "vraagdialoog" : "6",
+        "vraagintrekken" : "7",
+        "vraaglezer" : "lezer",
+        "vraagopmerking" : "",
+        "vraagprettig" : "7"
       },
-      "date": "2016-12-21",
-      "referrer": "https://www.facebook.com/",
-      "time": "11:39:46.14",
-      "version": "versiea"
+      "date" : "2016-12-21",
+      "referrer" : "https://www.facebook.com/",
+      "time" : "11:39:46.14",
+      "version" : "versiea"
     },
-    "2016-12-21=10:45:06:424900=qwVhYERFFEL2MUDnwXWnh6Y0rf4746JF4Rqx2JunQsc=": {
-      "11:45:05:146": {
-        "name": "stap-welkom"
+    "2016-12-21=10:45:06:424900=qwVhYERFFEL2MUDnwXWnh6Y0rf4746JF4Rqx2JunQsc=" : {
+      "11:45:05:146" : {
+        "name" : "stap-welkom"
       },
-      "13:48:21:674": {
-        "name": "stap-lezen-2"
+      "13:48:21:674" : {
+        "name" : "stap-lezen-2"
       },
-      "13:50:17:818": {
-        "name": "stap-lezen-2"
+      "13:50:17:818" : {
+        "name" : "stap-lezen-2"
       },
-      "13:52:25:338": {
-        "name": "stap-enquete"
+      "13:52:25:338" : {
+        "name" : "stap-enquete"
       },
-      "13:52:44:828": {
-        "name": "stap-bedankt"
+      "13:52:44:828" : {
+        "name" : "stap-bedankt"
       },
-      "Enquete": {
-        "tijd": "13:52:44:785",
-        "vraagdialoog": "7",
-        "vraagintrekken": "7",
-        "vraaglezer": "lezer",
-        "vraagopmerking": "",
-        "vraagprettig": "7"
+      "Enquete" : {
+        "tijd" : "13:52:44:785",
+        "vraagdialoog" : "7",
+        "vraagintrekken" : "7",
+        "vraaglezer" : "lezer",
+        "vraagopmerking" : "",
+        "vraagprettig" : "7"
       },
-      "date": "2016-12-21",
-      "referrer": "https://www.facebook.com/",
-      "time": "11:45:5.81",
-      "version": "versieb"
+      "date" : "2016-12-21",
+      "referrer" : "https://www.facebook.com/",
+      "time" : "11:45:5.81",
+      "version" : "versieb"
     },
-    "2016-12-21=11:02:53:591100=y3F0uJd5T3KlXcItrR+kkaKv1-dnyYS1EEPFY0QjQu4=": {
-      "12:03:00:876": {
-        "name": "stap-welkom"
+    "2016-12-21=11:02:53:591100=y3F0uJd5T3KlXcItrR+kkaKv1-dnyYS1EEPFY0QjQu4=" : {
+      "12:03:00:876" : {
+        "name" : "stap-welkom"
       },
-      "12:03:13:251": {
-        "name": "stap-lezen"
+      "12:03:13:251" : {
+        "name" : "stap-lezen"
       },
-      "date": "2016-12-21",
-      "referrer": "http://m.facebook.com",
-      "time": "12:2:59.580",
-      "version": "versieb"
+      "date" : "2016-12-21",
+      "referrer" : "http://m.facebook.com",
+      "time" : "12:2:59.580",
+      "version" : "versieb"
     },
-    "2016-12-21=11:31:31:710700=GWONwv2j6boJafjZhc7Agl0AjeoVs4yln8R+c8oO9KE=": {
-      "12:31:35:722": {
-        "name": "stap-welkom"
+    "2016-12-21=11:31:31:710700=GWONwv2j6boJafjZhc7Agl0AjeoVs4yln8R+c8oO9KE=" : {
+      "12:31:35:722" : {
+        "name" : "stap-welkom"
       },
-      "12:31:42:360": {
-        "name": "stap-lezen-2"
+      "12:31:42:360" : {
+        "name" : "stap-lezen-2"
       },
-      "12:32:00:581": {
-        "name": "stap-lezen-2"
+      "12:32:00:581" : {
+        "name" : "stap-lezen-2"
       },
-      "12:32:22:515": {
-        "name": "stap-enquete"
+      "12:32:22:515" : {
+        "name" : "stap-enquete"
       },
-      "date": "2016-12-21",
-      "referrer": "",
-      "time": "12:31:35.379",
-      "version": "versieb"
+      "date" : "2016-12-21",
+      "referrer" : "",
+      "time" : "12:31:35.379",
+      "version" : "versieb"
     },
-    "2016-12-21=12:01:01:100800=Oo3e89InYgZafCeHbNW86ZTg3alncaoMYze54WSy8Ug=": {
-      "22:36:49:121": {
-        "name": "stap-welkom"
+    "2016-12-21=12:01:01:100800=Oo3e89InYgZafCeHbNW86ZTg3alncaoMYze54WSy8Ug=" : {
+      "22:36:49:121" : {
+        "name" : "stap-welkom"
       },
-      "date": "2016-12-21",
-      "referrer": "http://m.facebook.com",
-      "time": "22:36:48.704",
-      "version": "versieb"
+      "date" : "2016-12-21",
+      "referrer" : "http://m.facebook.com",
+      "time" : "22:36:48.704",
+      "version" : "versieb"
     },
-    "2016-12-21=12:02:44:394200=ujQVyOSp1FymAdgD-AimRsr7gDKx3SEzwGZoQowe3QE=": {
-      "13:02:46:595": {
-        "name": "stap-welkom"
+    "2016-12-21=12:02:44:394200=ujQVyOSp1FymAdgD-AimRsr7gDKx3SEzwGZoQowe3QE=" : {
+      "13:02:46:595" : {
+        "name" : "stap-welkom"
       },
-      "13:02:54:285": {
-        "name": "stap-lezen"
+      "13:02:54:285" : {
+        "name" : "stap-lezen"
       },
-      "date": "2016-12-21",
-      "referrer": "https://lm.facebook.com/l.php?u=https%3A%2F%2Fnutesten.nl%2Ftekst%2F&h=2AQEWHeZi&enc=AZO1gwh3pMA5K6EuMOPLtd6Cr5yg_xGmhlKjOJw6XGNzdPfyWKsAnWJ6Yw4Tpp_gbrdVv64fo5pXNcejyZF30BeiHCigR-vw-eejl7r0F2X7D2-h-VGC_IOs19SP_xi5WbGRNDHEOZdFaufQ2Z-j2mV9PsTWVSLMh5Il998sbw07kARLVUPLvRpwpZoyp82cBIs&s=1",
-      "time": "13:2:46.299",
-      "version": "versiea"
+      "date" : "2016-12-21",
+      "referrer" : "https://lm.facebook.com/l.php?u=https%3A%2F%2Fnutesten.nl%2Ftekst%2F&h=2AQEWHeZi&enc=AZO1gwh3pMA5K6EuMOPLtd6Cr5yg_xGmhlKjOJw6XGNzdPfyWKsAnWJ6Yw4Tpp_gbrdVv64fo5pXNcejyZF30BeiHCigR-vw-eejl7r0F2X7D2-h-VGC_IOs19SP_xi5WbGRNDHEOZdFaufQ2Z-j2mV9PsTWVSLMh5Il998sbw07kARLVUPLvRpwpZoyp82cBIs&s=1",
+      "time" : "13:2:46.299",
+      "version" : "versiea"
     },
-    "2016-12-21=12:11:54:087100=AYR+8xMWcjZczet7kUyJGSxlVXlUKIyBbqe4WQ6L0CY=": {
-      "13:12:00:420": {
-        "name": "stap-welkom"
+    "2016-12-21=12:11:54:087100=AYR+8xMWcjZczet7kUyJGSxlVXlUKIyBbqe4WQ6L0CY=" : {
+      "13:12:00:420" : {
+        "name" : "stap-welkom"
       },
-      "13:12:05:598": {
-        "name": "stap-lezen"
+      "13:12:05:598" : {
+        "name" : "stap-lezen"
       },
-      "date": "2016-12-21",
-      "referrer": "",
-      "time": "13:11:59.977",
-      "version": "versieb"
+      "date" : "2016-12-21",
+      "referrer" : "",
+      "time" : "13:11:59.977",
+      "version" : "versieb"
     },
-    "2016-12-21=12:52:10:659300=6VPIxjbaGe9djbQWnOphDwHahq98weUuS+J+6LwYM6c=": {
-      "13:52:11:489": {
-        "name": "stap-welkom"
+    "2016-12-21=12:52:10:659300=6VPIxjbaGe9djbQWnOphDwHahq98weUuS+J+6LwYM6c=" : {
+      "13:52:11:489" : {
+        "name" : "stap-welkom"
       },
-      "13:52:18:306": {
-        "name": "stap-lezen"
+      "13:52:18:306" : {
+        "name" : "stap-lezen"
       },
-      "date": "2016-12-21",
-      "referrer": "https://t.co/GCWN2FZd4O",
-      "time": "13:52:11.384",
-      "version": "versieb"
+      "date" : "2016-12-21",
+      "referrer" : "https://t.co/GCWN2FZd4O",
+      "time" : "13:52:11.384",
+      "version" : "versieb"
     },
-    "2016-12-21=14:12:17:945700=ray4vgzMLB6UdS-9ahC3DAR7MF+B8t69fzkMdblW9qU=": {
-      "15:12:34:305": {
-        "name": "stap-welkom"
+    "2016-12-21=14:12:17:945700=ray4vgzMLB6UdS-9ahC3DAR7MF+B8t69fzkMdblW9qU=" : {
+      "15:12:34:305" : {
+        "name" : "stap-welkom"
       },
-      "15:12:49:098": {
-        "name": "stap-lezen"
+      "15:12:49:098" : {
+        "name" : "stap-lezen"
       },
-      "date": "2016-12-21",
-      "referrer": "http://m.facebook.com",
-      "time": "15:12:33.231",
-      "version": "versieb"
+      "date" : "2016-12-21",
+      "referrer" : "http://m.facebook.com",
+      "time" : "15:12:33.231",
+      "version" : "versieb"
     },
-    "2016-12-21=14:22:11:870400=Te96Kyydr9wWjvXtgbT6D4ouOm2UZavJsJcMqp-1Tbk=": {
-      "15:22:13:292": {
-        "name": "stap-welkom"
+    "2016-12-21=14:22:11:870400=Te96Kyydr9wWjvXtgbT6D4ouOm2UZavJsJcMqp-1Tbk=" : {
+      "15:22:13:292" : {
+        "name" : "stap-welkom"
       },
-      "15:22:19:524": {
-        "name": "stap-lezen-2"
+      "15:22:19:524" : {
+        "name" : "stap-lezen-2"
       },
-      "15:27:17:983": {
-        "name": "stap-lezen-2"
+      "15:27:17:983" : {
+        "name" : "stap-lezen-2"
       },
-      "15:30:39:593": {
-        "name": "stap-enquete"
+      "15:30:39:593" : {
+        "name" : "stap-enquete"
       },
-      "15:31:12:993": {
-        "name": "stap-bedankt"
+      "15:31:12:993" : {
+        "name" : "stap-bedankt"
       },
-      "Enquete": {
-        "tijd": "15:31:12:887",
-        "vraagdialoog": "4",
-        "vraagintrekken": "4",
-        "vraaglezer": "lezer",
-        "vraagopmerking": "",
-        "vraagprettig": "4"
+      "Enquete" : {
+        "tijd" : "15:31:12:887",
+        "vraagdialoog" : "4",
+        "vraagintrekken" : "4",
+        "vraaglezer" : "lezer",
+        "vraagopmerking" : "",
+        "vraagprettig" : "4"
       },
-      "date": "2016-12-21",
-      "referrer": "http://m.facebook.com",
-      "time": "15:22:13.142",
-      "version": "versiea"
+      "date" : "2016-12-21",
+      "referrer" : "http://m.facebook.com",
+      "time" : "15:22:13.142",
+      "version" : "versiea"
     },
-    "2016-12-21=14:57:27:662900=3vkOcqnbtehJ58aHCr4MOVWCKyWpL6wiZKRwg3yDNjs=": {
-      "15:57:28:663": {
-        "name": "stap-welkom"
+    "2016-12-21=14:57:27:662900=3vkOcqnbtehJ58aHCr4MOVWCKyWpL6wiZKRwg3yDNjs=" : {
+      "15:57:28:663" : {
+        "name" : "stap-welkom"
       },
-      "15:57:32:238": {
-        "name": "stap-lezen"
+      "15:57:32:238" : {
+        "name" : "stap-lezen"
       },
-      "date": "2016-12-21",
-      "referrer": "android-app://m.facebook.com",
-      "time": "15:57:28.530",
-      "version": "versieb"
+      "date" : "2016-12-21",
+      "referrer" : "android-app://m.facebook.com",
+      "time" : "15:57:28.530",
+      "version" : "versieb"
     },
-    "2016-12-21=15:12:38:010000=ODvCOj4-IudONrgC5ZA5v6AL9ImjNonELG4Ar-M5PiQ=": {
-      "16:12:50:677": {
-        "name": "stap-welkom"
+    "2016-12-21=15:12:38:010000=ODvCOj4-IudONrgC5ZA5v6AL9ImjNonELG4Ar-M5PiQ=" : {
+      "16:12:50:677" : {
+        "name" : "stap-welkom"
       },
-      "16:12:58:361": {
-        "name": "stap-lezen-2"
+      "16:12:58:361" : {
+        "name" : "stap-lezen-2"
       },
-      "16:15:15:603": {
-        "name": "stap-lezen-2"
+      "16:15:15:603" : {
+        "name" : "stap-lezen-2"
       },
-      "16:21:10:661": {
-        "name": "stap-enquete"
+      "16:21:10:661" : {
+        "name" : "stap-enquete"
       },
-      "16:23:34:084": {
-        "name": "stap-bedankt"
+      "16:23:34:084" : {
+        "name" : "stap-bedankt"
       },
-      "Enquete": {
-        "tijd": "16:23:33:410",
-        "vraagdialoog": "6",
-        "vraagintrekken": "6",
-        "vraaglezer": "lezer",
-        "vraagopmerking": "",
-        "vraagprettig": "6"
+      "Enquete" : {
+        "tijd" : "16:23:33:410",
+        "vraagdialoog" : "6",
+        "vraagintrekken" : "6",
+        "vraaglezer" : "lezer",
+        "vraagopmerking" : "",
+        "vraagprettig" : "6"
       },
-      "date": "2016-12-21",
-      "referrer": "http://m.facebook.com",
-      "time": "16:12:49.537",
-      "version": "versieb"
+      "date" : "2016-12-21",
+      "referrer" : "http://m.facebook.com",
+      "time" : "16:12:49.537",
+      "version" : "versieb"
     },
-    "2016-12-21=15:20:50:790300=6311SrXCW3AQ0XuSGYISIkSzMID2FML-PTAI3bfzn0o=": {
-      "16:21:08:847": {
-        "name": "stap-welkom"
+    "2016-12-21=15:20:50:790300=6311SrXCW3AQ0XuSGYISIkSzMID2FML-PTAI3bfzn0o=" : {
+      "16:21:08:847" : {
+        "name" : "stap-welkom"
       },
-      "16:21:15:293": {
-        "name": "stap-lezen-2"
+      "16:21:15:293" : {
+        "name" : "stap-lezen-2"
       },
-      "16:24:40:577": {
-        "name": "stap-lezen-2"
+      "16:24:40:577" : {
+        "name" : "stap-lezen-2"
       },
-      "16:28:54:887": {
-        "name": "stap-enquete"
+      "16:28:54:887" : {
+        "name" : "stap-enquete"
       },
-      "16:29:15:896": {
-        "name": "stap-bedankt"
+      "16:29:15:896" : {
+        "name" : "stap-bedankt"
       },
-      "Enquete": {
-        "tijd": "16:29:15:804",
-        "vraagdialoog": "4",
-        "vraagintrekken": "5",
-        "vraaglezer": "lezer",
-        "vraagopmerking": "",
-        "vraagprettig": "4"
+      "Enquete" : {
+        "tijd" : "16:29:15:804",
+        "vraagdialoog" : "4",
+        "vraagintrekken" : "5",
+        "vraaglezer" : "lezer",
+        "vraagopmerking" : "",
+        "vraagprettig" : "4"
       },
-      "date": "2016-12-21",
-      "referrer": "https://www.facebook.com/",
-      "time": "16:21:8.549",
-      "version": "versiea"
+      "date" : "2016-12-21",
+      "referrer" : "https://www.facebook.com/",
+      "time" : "16:21:8.549",
+      "version" : "versiea"
     },
-    "2016-12-21=15:23:56:909900=U1ViYp-rtDag7XqsTjGDRdjT5LRCqbSlc1ZC14+FBsE=": {
-      "16:24:01:053": {
-        "name": "stap-welkom"
+    "2016-12-21=15:23:56:909900=U1ViYp-rtDag7XqsTjGDRdjT5LRCqbSlc1ZC14+FBsE=" : {
+      "16:24:01:053" : {
+        "name" : "stap-welkom"
       },
-      "16:24:05:480": {
-        "name": "stap-lezen-2"
+      "16:24:05:480" : {
+        "name" : "stap-lezen-2"
       },
-      "16:24:11:950": {
-        "name": "stap-lezen-2"
+      "16:24:11:950" : {
+        "name" : "stap-lezen-2"
       },
-      "16:24:14:414": {
-        "name": "stap-enquete"
+      "16:24:14:414" : {
+        "name" : "stap-enquete"
       },
-      "date": "2016-12-21",
-      "referrer": "http://m.facebook.com",
-      "time": "16:24:0.358",
-      "version": "versieb"
+      "date" : "2016-12-21",
+      "referrer" : "http://m.facebook.com",
+      "time" : "16:24:0.358",
+      "version" : "versieb"
     },
-    "2016-12-21=15:26:56:585000=ESVpMcJw5QrW-qAktjenUZkIX22VbjJ8jRFNid2-YwQ=": {
-      "22:27:07:996": {
-        "name": "stap-welkom"
+    "2016-12-21=15:26:56:585000=ESVpMcJw5QrW-qAktjenUZkIX22VbjJ8jRFNid2-YwQ=" : {
+      "22:27:07:996" : {
+        "name" : "stap-welkom"
       },
-      "22:27:18:012": {
-        "name": "stap-lezen-2"
+      "22:27:18:012" : {
+        "name" : "stap-lezen-2"
       },
-      "22:28:58:985": {
-        "name": "stap-lezen-2"
+      "22:28:58:985" : {
+        "name" : "stap-lezen-2"
       },
-      "22:30:32:724": {
-        "name": "stap-enquete"
+      "22:30:32:724" : {
+        "name" : "stap-enquete"
       },
-      "date": "2016-12-21",
-      "referrer": "http://m.facebook.com",
-      "time": "22:27:6.706",
-      "version": "versieb"
+      "date" : "2016-12-21",
+      "referrer" : "http://m.facebook.com",
+      "time" : "22:27:6.706",
+      "version" : "versieb"
     },
-    "2016-12-21=16:31:57:108900=4P9yjliv9VRyGxAJxMAkUQkssQiWPjLOf+mrSsajVzM=": {
-      "17:35:27:163": {
-        "name": "stap-welkom"
+    "2016-12-21=16:31:57:108900=4P9yjliv9VRyGxAJxMAkUQkssQiWPjLOf+mrSsajVzM=" : {
+      "17:35:27:163" : {
+        "name" : "stap-welkom"
       },
-      "17:35:29:067": {
-        "name": "stap-lezen-2"
+      "17:35:29:067" : {
+        "name" : "stap-lezen-2"
       },
-      "17:35:31:847": {
-        "name": "stap-lezen-2"
+      "17:35:31:847" : {
+        "name" : "stap-lezen-2"
       },
-      "17:38:14:538": {
-        "name": "stap-enquete"
+      "17:38:14:538" : {
+        "name" : "stap-enquete"
       },
-      "17:39:09:380": {
-        "name": "stap-bedankt"
+      "17:39:09:380" : {
+        "name" : "stap-bedankt"
       },
-      "Enquete": {
-        "tijd": "17:39:09:211",
-        "vraagdialoog": "7",
-        "vraagintrekken": "7",
-        "vraaglezer": "schrijver",
-        "vraagopmerking": "Snel het vervolg svp. Ben benieuwd naar meer.",
-        "vraagprettig": "7"
+      "Enquete" : {
+        "tijd" : "17:39:09:211",
+        "vraagdialoog" : "7",
+        "vraagintrekken" : "7",
+        "vraaglezer" : "schrijver",
+        "vraagopmerking" : "Snel het vervolg svp. Ben benieuwd naar meer.",
+        "vraagprettig" : "7"
       },
-      "date": "2016-12-21",
-      "referrer": "http://m.facebook.com/",
-      "time": "17:35:27.3",
-      "version": "versiea"
+      "date" : "2016-12-21",
+      "referrer" : "http://m.facebook.com/",
+      "time" : "17:35:27.3",
+      "version" : "versiea"
     },
-    "2016-12-21=16:52:26:558400=ccQJ5Nv9Xcb1PBqzdc3NXPCzlFvDHiWVoh5108AZQKo=": {
-      "17:52:28:908": {
-        "name": "stap-welkom"
+    "2016-12-21=16:52:26:558400=ccQJ5Nv9Xcb1PBqzdc3NXPCzlFvDHiWVoh5108AZQKo=" : {
+      "17:52:28:908" : {
+        "name" : "stap-welkom"
       },
-      "17:52:37:172": {
-        "name": "stap-lezen-2"
+      "17:52:37:172" : {
+        "name" : "stap-lezen-2"
       },
-      "17:54:09:029": {
-        "name": "stap-lezen-2"
+      "17:54:09:029" : {
+        "name" : "stap-lezen-2"
       },
-      "17:54:14:586": {
-        "name": "stap-enquete"
+      "17:54:14:586" : {
+        "name" : "stap-enquete"
       },
-      "17:54:22:776": {
-        "name": "stap-bedankt"
+      "17:54:22:776" : {
+        "name" : "stap-bedankt"
       },
-      "Enquete": {
-        "tijd": "17:54:22:660",
-        "vraagdialoog": "4",
-        "vraagintrekken": "4",
-        "vraaglezer": "onbekend",
-        "vraagopmerking": "",
-        "vraagprettig": "4"
+      "Enquete" : {
+        "tijd" : "17:54:22:660",
+        "vraagdialoog" : "4",
+        "vraagintrekken" : "4",
+        "vraaglezer" : "onbekend",
+        "vraagopmerking" : "",
+        "vraagprettig" : "4"
       },
-      "date": "2016-12-21",
-      "referrer": "http://m.facebook.com",
-      "time": "17:52:28.561",
-      "version": "versiea"
+      "date" : "2016-12-21",
+      "referrer" : "http://m.facebook.com",
+      "time" : "17:52:28.561",
+      "version" : "versiea"
     },
-    "2016-12-21=17:08:33:769800=ZQn0o0pQWg9jO5Our0BofwbN2Usg4C5P-jyZ4WGWAjU=": {
-      "18:08:37:668": {
-        "name": "stap-welkom"
+    "2016-12-21=17:08:33:769800=ZQn0o0pQWg9jO5Our0BofwbN2Usg4C5P-jyZ4WGWAjU=" : {
+      "18:08:37:668" : {
+        "name" : "stap-welkom"
       },
-      "date": "2016-12-21",
-      "referrer": "http://m.facebook.com/",
-      "time": "18:8:35.371",
-      "version": "versiea"
+      "date" : "2016-12-21",
+      "referrer" : "http://m.facebook.com/",
+      "time" : "18:8:35.371",
+      "version" : "versiea"
     },
-    "2016-12-21=17:17:48:030200=QXggVotZyDni4cMezlePRMMh310kW7cgTnyEvzcW2v4=": {
-      "18:18:17:837": {
-        "name": "stap-welkom"
+    "2016-12-21=17:17:48:030200=QXggVotZyDni4cMezlePRMMh310kW7cgTnyEvzcW2v4=" : {
+      "18:18:17:837" : {
+        "name" : "stap-welkom"
       },
-      "18:18:22:479": {
-        "name": "stap-lezen"
+      "18:18:22:479" : {
+        "name" : "stap-lezen"
       },
-      "date": "2016-12-21",
-      "referrer": "http://m.facebook.com/",
-      "time": "18:18:17.492",
-      "version": "versieb"
+      "date" : "2016-12-21",
+      "referrer" : "http://m.facebook.com/",
+      "time" : "18:18:17.492",
+      "version" : "versieb"
     },
-    "2016-12-21=18:10:20:133200=7rsC7t13bj8jnZ21xHphRssJ8rCrbGXLff0KmyQ90zo=": {
-      "19:10:22:250": {
-        "name": "stap-welkom"
+    "2016-12-21=18:10:20:133200=7rsC7t13bj8jnZ21xHphRssJ8rCrbGXLff0KmyQ90zo=" : {
+      "19:10:22:250" : {
+        "name" : "stap-welkom"
       },
-      "19:10:29:931": {
-        "name": "stap-lezen-2"
+      "19:10:29:931" : {
+        "name" : "stap-lezen-2"
       },
-      "19:14:49:054": {
-        "name": "stap-lezen-2"
+      "19:14:49:054" : {
+        "name" : "stap-lezen-2"
       },
-      "19:18:31:231": {
-        "name": "stap-enquete"
+      "19:18:31:231" : {
+        "name" : "stap-enquete"
       },
-      "19:18:53:826": {
-        "name": "stap-bedankt"
+      "19:18:53:826" : {
+        "name" : "stap-bedankt"
       },
-      "Enquete": {
-        "tijd": "19:18:53:524",
-        "vraagdialoog": "6",
-        "vraagintrekken": "6",
-        "vraaglezer": "lezer",
-        "vraagopmerking": "",
-        "vraagprettig": "7"
+      "Enquete" : {
+        "tijd" : "19:18:53:524",
+        "vraagdialoog" : "6",
+        "vraagintrekken" : "6",
+        "vraaglezer" : "lezer",
+        "vraagopmerking" : "",
+        "vraagprettig" : "7"
       },
-      "date": "2016-12-21",
-      "referrer": "http://m.facebook.com",
-      "time": "19:10:21.986",
-      "version": "versiea"
+      "date" : "2016-12-21",
+      "referrer" : "http://m.facebook.com",
+      "time" : "19:10:21.986",
+      "version" : "versiea"
     },
-    "2016-12-21=18:19:18:978500=WhxVfVtWQP16ZDQbBfnQNuQj8QxWuZ64OBvdacu-dkc=": {
-      "19:19:20:179": {
-        "name": "stap-welkom"
+    "2016-12-21=18:19:18:978500=WhxVfVtWQP16ZDQbBfnQNuQj8QxWuZ64OBvdacu-dkc=" : {
+      "19:19:20:179" : {
+        "name" : "stap-welkom"
       },
-      "19:19:25:889": {
-        "name": "stap-lezen-2"
+      "19:19:25:889" : {
+        "name" : "stap-lezen-2"
       },
-      "19:21:53:914": {
-        "name": "stap-lezen-2"
+      "19:21:53:914" : {
+        "name" : "stap-lezen-2"
       },
-      "19:24:28:237": {
-        "name": "stap-enquete"
+      "19:24:28:237" : {
+        "name" : "stap-enquete"
       },
-      "19:24:49:596": {
-        "name": "stap-bedankt"
+      "19:24:49:596" : {
+        "name" : "stap-bedankt"
       },
-      "Enquete": {
-        "tijd": "19:24:49:469",
-        "vraagdialoog": "7",
-        "vraagintrekken": "7",
-        "vraaglezer": "lezer",
-        "vraagopmerking": "",
-        "vraagprettig": "7"
+      "Enquete" : {
+        "tijd" : "19:24:49:469",
+        "vraagdialoog" : "7",
+        "vraagintrekken" : "7",
+        "vraaglezer" : "lezer",
+        "vraagopmerking" : "",
+        "vraagprettig" : "7"
       },
-      "date": "2016-12-21",
-      "referrer": "http://m.facebook.com",
-      "time": "19:19:20.55",
-      "version": "versiea"
+      "date" : "2016-12-21",
+      "referrer" : "http://m.facebook.com",
+      "time" : "19:19:20.55",
+      "version" : "versiea"
     },
-    "2016-12-21=18:38:58:770300=7c9gMwqhdvVSuns24n2fFh2IhYauvPcnWwzrTHjZ7y8=": {
-      "19:38:55:833": {
-        "name": "stap-welkom"
+    "2016-12-21=18:38:58:770300=7c9gMwqhdvVSuns24n2fFh2IhYauvPcnWwzrTHjZ7y8=" : {
+      "19:38:55:833" : {
+        "name" : "stap-welkom"
       },
-      "19:38:57:806": {
-        "name": "stap-lezen-2"
+      "19:38:57:806" : {
+        "name" : "stap-lezen-2"
       },
-      "19:39:10:282": {
-        "name": "stap-lezen-2"
+      "19:39:10:282" : {
+        "name" : "stap-lezen-2"
       },
-      "date": "2016-12-21",
-      "referrer": "https://www.facebook.com/",
-      "time": "19:38:55.781",
-      "version": "versieb"
+      "date" : "2016-12-21",
+      "referrer" : "https://www.facebook.com/",
+      "time" : "19:38:55.781",
+      "version" : "versieb"
     },
-    "2016-12-21=18:54:30:234400=H3Ueph-zxwKtPOHUyA8lOXXfs61KE4DxbXsvXTQT2v4=": {
-      "19:54:31:597": {
-        "name": "stap-welkom"
+    "2016-12-21=18:54:30:234400=H3Ueph-zxwKtPOHUyA8lOXXfs61KE4DxbXsvXTQT2v4=" : {
+      "19:54:31:597" : {
+        "name" : "stap-welkom"
       },
-      "19:54:36:239": {
-        "name": "stap-lezen"
+      "19:54:36:239" : {
+        "name" : "stap-lezen"
       },
-      "date": "2016-12-21",
-      "referrer": "http://m.facebook.com",
-      "time": "19:54:31.397",
-      "version": "versiea"
+      "date" : "2016-12-21",
+      "referrer" : "http://m.facebook.com",
+      "time" : "19:54:31.397",
+      "version" : "versiea"
     },
-    "2016-12-21=19:44:01:155400=0pfYUWBhfsEYgN4jBIK4-cfHSaPYxW5CjJvSFawS6tE=": {
-      "20:44:50:964": {
-        "name": "stap-welkom"
+    "2016-12-21=19:44:01:155400=0pfYUWBhfsEYgN4jBIK4-cfHSaPYxW5CjJvSFawS6tE=" : {
+      "20:44:50:964" : {
+        "name" : "stap-welkom"
       },
-      "20:44:55:729": {
-        "name": "stap-lezen-2"
+      "20:44:55:729" : {
+        "name" : "stap-lezen-2"
       },
-      "20:47:38:323": {
-        "name": "stap-lezen-2"
+      "20:47:38:323" : {
+        "name" : "stap-lezen-2"
       },
-      "20:49:44:716": {
-        "name": "stap-enquete"
+      "20:49:44:716" : {
+        "name" : "stap-enquete"
       },
-      "20:50:08:845": {
-        "name": "stap-bedankt"
+      "20:50:08:845" : {
+        "name" : "stap-bedankt"
       },
-      "Enquete": {
-        "tijd": "20:50:08:649",
-        "vraagdialoog": "5",
-        "vraagintrekken": "6",
-        "vraaglezer": "lezer",
-        "vraagopmerking": "",
-        "vraagprettig": "6"
+      "Enquete" : {
+        "tijd" : "20:50:08:649",
+        "vraagdialoog" : "5",
+        "vraagintrekken" : "6",
+        "vraaglezer" : "lezer",
+        "vraagopmerking" : "",
+        "vraagprettig" : "6"
       },
-      "date": "2016-12-21",
-      "referrer": "https://www.facebook.com/",
-      "time": "20:44:50.486",
-      "version": "versiea"
+      "date" : "2016-12-21",
+      "referrer" : "https://www.facebook.com/",
+      "time" : "20:44:50.486",
+      "version" : "versiea"
     },
-    "2016-12-21=19:46:27:570000=qqHK3eqW+YFocjuQpikDBVH4HCj5jGDnRG9IbIhX17g=": {
-      "21:15:43:343": {
-        "name": "stap-welkom"
+    "2016-12-21=19:46:27:570000=qqHK3eqW+YFocjuQpikDBVH4HCj5jGDnRG9IbIhX17g=" : {
+      "21:15:43:343" : {
+        "name" : "stap-welkom"
       },
-      "21:15:53:258": {
-        "name": "stap-lezen"
+      "21:15:53:258" : {
+        "name" : "stap-lezen"
       },
-      "date": "2016-12-21",
-      "referrer": "http://m.facebook.com/",
-      "time": "21:15:42.840",
-      "version": "versiea"
+      "date" : "2016-12-21",
+      "referrer" : "http://m.facebook.com/",
+      "time" : "21:15:42.840",
+      "version" : "versiea"
     },
-    "2016-12-21=20:23:14:408700=xfVPhIPBIbBgSei52Q8W3SjjcCNY1NULfcAAsrZjzXQ=": {
-      "09:23:30:489": {
-        "name": "stap-welkom"
+    "2016-12-21=20:23:14:408700=xfVPhIPBIbBgSei52Q8W3SjjcCNY1NULfcAAsrZjzXQ=" : {
+      "09:23:30:489" : {
+        "name" : "stap-welkom"
       },
-      "09:23:37:420": {
-        "name": "stap-lezen-2"
+      "09:23:37:420" : {
+        "name" : "stap-lezen-2"
       },
-      "09:26:10:040": {
-        "name": "stap-lezen-2"
+      "09:26:10:040" : {
+        "name" : "stap-lezen-2"
       },
-      "09:28:11:004": {
-        "name": "stap-enquete"
+      "09:28:11:004" : {
+        "name" : "stap-enquete"
       },
-      "09:28:29:755": {
-        "name": "stap-bedankt"
+      "09:28:29:755" : {
+        "name" : "stap-bedankt"
       },
-      "Enquete": {
-        "tijd": "09:28:27:161",
-        "vraagdialoog": "6",
-        "vraagintrekken": "7",
-        "vraaglezer": "lezer",
-        "vraagopmerking": "",
-        "vraagprettig": "7"
+      "Enquete" : {
+        "tijd" : "09:28:27:161",
+        "vraagdialoog" : "6",
+        "vraagintrekken" : "7",
+        "vraaglezer" : "lezer",
+        "vraagopmerking" : "",
+        "vraagprettig" : "7"
       },
-      "date": "2016-12-22",
-      "referrer": "http://m.facebook.com/",
-      "time": "9:23:29.755",
-      "version": "versieb"
+      "date" : "2016-12-22",
+      "referrer" : "http://m.facebook.com/",
+      "time" : "9:23:29.755",
+      "version" : "versieb"
     },
-    "2016-12-21=22:12:25:467200=tVD9jiemE154gFu-BeE1O9xQ3I2qF20666xrArhOsM0=": {
-      "23:12:26:969": {
-        "name": "stap-welkom"
+    "2016-12-21=22:12:25:467200=tVD9jiemE154gFu-BeE1O9xQ3I2qF20666xrArhOsM0=" : {
+      "23:12:26:969" : {
+        "name" : "stap-welkom"
       },
-      "23:12:33:026": {
-        "name": "stap-lezen-2"
+      "23:12:33:026" : {
+        "name" : "stap-lezen-2"
       },
-      "23:15:16:657": {
-        "name": "stap-lezen-2"
+      "23:15:16:657" : {
+        "name" : "stap-lezen-2"
       },
-      "23:15:33:164": {
-        "name": "stap-enquete"
+      "23:15:33:164" : {
+        "name" : "stap-enquete"
       },
-      "date": "2016-12-21",
-      "referrer": "",
-      "time": "23:12:26.456",
-      "version": "versiea"
+      "date" : "2016-12-21",
+      "referrer" : "",
+      "time" : "23:12:26.456",
+      "version" : "versiea"
     },
-    "2016-12-21=22:27:55:134600=pWxkj1HbcGGX7RfFjUBsZA0OJnrRjfjmmNxz0BT+Ftc=": {
-      "23:28:11:723": {
-        "name": "stap-welkom"
+    "2016-12-21=22:27:55:134600=pWxkj1HbcGGX7RfFjUBsZA0OJnrRjfjmmNxz0BT+Ftc=" : {
+      "23:28:11:723" : {
+        "name" : "stap-welkom"
       },
-      "date": "2016-12-21",
-      "referrer": "https://www.facebook.com/",
-      "time": "23:28:11.505",
-      "version": "versiea"
+      "date" : "2016-12-21",
+      "referrer" : "https://www.facebook.com/",
+      "time" : "23:28:11.505",
+      "version" : "versiea"
     },
-    "2016-12-21=23:28:50:044100=jm6v42W2zwhs6ZY0mqw+R1eojLJBtQtT7aSb2nEmL9Q=": {
-      "00:28:51:811": {
-        "name": "stap-welkom"
+    "2016-12-21=23:28:50:044100=jm6v42W2zwhs6ZY0mqw+R1eojLJBtQtT7aSb2nEmL9Q=" : {
+      "00:28:51:811" : {
+        "name" : "stap-welkom"
       },
-      "00:29:00:426": {
-        "name": "stap-lezen-2"
+      "00:29:00:426" : {
+        "name" : "stap-lezen-2"
       },
-      "00:35:31:470": {
-        "name": "stap-lezen-2"
+      "00:35:31:470" : {
+        "name" : "stap-lezen-2"
       },
-      "00:40:07:908": {
-        "name": "stap-enquete"
+      "00:40:07:908" : {
+        "name" : "stap-enquete"
       },
-      "00:45:03:061": {
-        "name": "stap-bedankt"
+      "00:45:03:061" : {
+        "name" : "stap-bedankt"
       },
-      "Enquete": {
-        "tijd": "00:45:02:881",
-        "vraagdialoog": "5",
-        "vraagintrekken": "5",
-        "vraaglezer": "lezer",
-        "vraagopmerking": "Als Carmen de pub binnen komt, wordt ze omhelst door haar vader. Haar vader is blijkbaar al binnen. Maar wat deed hij daar dan? Stond hij te wachten? Zat hij al? Ik kon dat stukje niet in beelden omzetten. De rest wel!",
-        "vraagprettig": "5"
+      "Enquete" : {
+        "tijd" : "00:45:02:881",
+        "vraagdialoog" : "5",
+        "vraagintrekken" : "5",
+        "vraaglezer" : "lezer",
+        "vraagopmerking" : "Als Carmen de pub binnen komt, wordt ze omhelst door haar vader. Haar vader is blijkbaar al binnen. Maar wat deed hij daar dan? Stond hij te wachten? Zat hij al? Ik kon dat stukje niet in beelden omzetten. De rest wel!",
+        "vraagprettig" : "5"
       },
-      "date": "2016-12-22",
-      "referrer": "http://m.facebook.com",
-      "time": "0:28:51.700",
-      "version": "versiea"
+      "date" : "2016-12-22",
+      "referrer" : "http://m.facebook.com",
+      "time" : "0:28:51.700",
+      "version" : "versiea"
     },
-    "2016-12-21=23:49:51:163400=TDPG5gaV2uBcuN238lWEVi+2r1+8AATKCShyaWdCkO4=": {
-      "00:49:50:325": {
-        "name": "stap-welkom"
+    "2016-12-21=23:49:51:163400=TDPG5gaV2uBcuN238lWEVi+2r1+8AATKCShyaWdCkO4=" : {
+      "00:49:50:325" : {
+        "name" : "stap-welkom"
       },
-      "00:49:59:996": {
-        "name": "stap-lezen-2"
+      "00:49:59:996" : {
+        "name" : "stap-lezen-2"
       },
-      "00:52:55:474": {
-        "name": "stap-lezen-2"
+      "00:52:55:474" : {
+        "name" : "stap-lezen-2"
       },
-      "00:55:13:787": {
-        "name": "stap-enquete"
+      "00:55:13:787" : {
+        "name" : "stap-enquete"
       },
-      "00:55:33:990": {
-        "name": "stap-bedankt"
+      "00:55:33:990" : {
+        "name" : "stap-bedankt"
       },
-      "Enquete": {
-        "tijd": "00:55:33:935",
-        "vraagdialoog": "4",
-        "vraagintrekken": "4",
-        "vraaglezer": "schrijver",
-        "vraagopmerking": "",
-        "vraagprettig": "4"
+      "Enquete" : {
+        "tijd" : "00:55:33:935",
+        "vraagdialoog" : "4",
+        "vraagintrekken" : "4",
+        "vraaglezer" : "schrijver",
+        "vraagopmerking" : "",
+        "vraagprettig" : "4"
       },
-      "date": "2016-12-22",
-      "referrer": "https://www.facebook.com/",
-      "time": "0:49:50.215",
-      "version": "versieb"
+      "date" : "2016-12-22",
+      "referrer" : "https://www.facebook.com/",
+      "time" : "0:49:50.215",
+      "version" : "versieb"
     },
-    "2016-12-22=02:04:38:693000=+Ubmd+dzMIKiILpuWicmOy1k0OlXWDenPOfP+wSjf88=": {
-      "03:04:39:848": {
-        "name": "stap-welkom"
+    "2016-12-22=02:04:38:693000=+Ubmd+dzMIKiILpuWicmOy1k0OlXWDenPOfP+wSjf88=" : {
+      "03:04:39:848" : {
+        "name" : "stap-welkom"
       },
-      "03:04:48:888": {
-        "name": "stap-lezen"
+      "03:04:48:888" : {
+        "name" : "stap-lezen"
       },
-      "date": "2016-12-22",
-      "referrer": "https://www.facebook.com/",
-      "time": "3:4:39.707",
-      "version": "versieb"
+      "date" : "2016-12-22",
+      "referrer" : "https://www.facebook.com/",
+      "time" : "3:4:39.707",
+      "version" : "versieb"
     },
-    "2016-12-22=06:05:53:801500=gzaFkJ64gvE7pOf1YE7kHhlgj2v5bVZhoOFTGrfWqyI=": {
-      "07:05:57:426": {
-        "name": "stap-welkom"
+    "2016-12-22=06:05:53:801500=gzaFkJ64gvE7pOf1YE7kHhlgj2v5bVZhoOFTGrfWqyI=" : {
+      "07:05:57:426" : {
+        "name" : "stap-welkom"
       },
-      "07:06:06:382": {
-        "name": "stap-lezen-2"
+      "07:06:06:382" : {
+        "name" : "stap-lezen-2"
       },
-      "07:06:15:100": {
-        "name": "stap-lezen-2"
+      "07:06:15:100" : {
+        "name" : "stap-lezen-2"
       },
-      "07:06:21:511": {
-        "name": "stap-enquete"
+      "07:06:21:511" : {
+        "name" : "stap-enquete"
       },
-      "07:06:37:190": {
-        "name": "stap-bedankt"
+      "07:06:37:190" : {
+        "name" : "stap-bedankt"
       },
-      "Enquete": {
-        "tijd": "07:06:36:878",
-        "vraagdialoog": "4",
-        "vraagintrekken": "4",
-        "vraaglezer": "onbekend",
-        "vraagopmerking": "",
-        "vraagprettig": "4"
+      "Enquete" : {
+        "tijd" : "07:06:36:878",
+        "vraagdialoog" : "4",
+        "vraagintrekken" : "4",
+        "vraaglezer" : "onbekend",
+        "vraagopmerking" : "",
+        "vraagprettig" : "4"
       },
-      "date": "2016-12-22",
-      "referrer": "https://www.facebook.com/",
-      "time": "7:5:57.223",
-      "version": "versiea"
+      "date" : "2016-12-22",
+      "referrer" : "https://www.facebook.com/",
+      "time" : "7:5:57.223",
+      "version" : "versiea"
     },
-    "2016-12-22=06:08:03:663100=sASyMHNY-G8i0Kz46kENu-oL0Xo6agItMHKhl-KZhp8=": {
-      "07:08:06:473": {
-        "name": "stap-welkom"
+    "2016-12-22=06:08:03:663100=sASyMHNY-G8i0Kz46kENu-oL0Xo6agItMHKhl-KZhp8=" : {
+      "07:08:06:473" : {
+        "name" : "stap-welkom"
       },
-      "07:08:09:251": {
-        "name": "stap-lezen-2"
+      "07:08:09:251" : {
+        "name" : "stap-lezen-2"
       },
-      "07:08:14:917": {
-        "name": "stap-lezen-2"
+      "07:08:14:917" : {
+        "name" : "stap-lezen-2"
       },
-      "07:08:19:433": {
-        "name": "stap-enquete"
+      "07:08:19:433" : {
+        "name" : "stap-enquete"
       },
-      "date": "2016-12-22",
-      "referrer": "https://www.facebook.com/",
-      "time": "7:8:6.327",
-      "version": "versiea"
+      "date" : "2016-12-22",
+      "referrer" : "https://www.facebook.com/",
+      "time" : "7:8:6.327",
+      "version" : "versiea"
     },
-    "2016-12-22=06:56:14:242900=tZL6P0cuLIAsHGpo8wWAdBbqeA4pdarrzBDOMhMdn9Y=": {
-      "07:56:17:469": {
-        "name": "stap-welkom"
+    "2016-12-22=06:56:14:242900=tZL6P0cuLIAsHGpo8wWAdBbqeA4pdarrzBDOMhMdn9Y=" : {
+      "07:56:17:469" : {
+        "name" : "stap-welkom"
       },
-      "07:56:27:110": {
-        "name": "stap-lezen"
+      "07:56:27:110" : {
+        "name" : "stap-lezen"
       },
-      "date": "2016-12-22",
-      "referrer": "http://m.facebook.com",
-      "time": "7:56:17.76",
-      "version": "versieb"
+      "date" : "2016-12-22",
+      "referrer" : "http://m.facebook.com",
+      "time" : "7:56:17.76",
+      "version" : "versieb"
     },
-    "2016-12-22=09:54:45:222600=b1zr-o5GvMgcshVbkNguyTs0X1xQ56YMMMSxGIg2Rdo=": {
-      "10:54:46:931": {
-        "name": "stap-welkom"
+    "2016-12-22=09:54:45:222600=b1zr-o5GvMgcshVbkNguyTs0X1xQ56YMMMSxGIg2Rdo=" : {
+      "10:54:46:931" : {
+        "name" : "stap-welkom"
       },
-      "10:54:52:196": {
-        "name": "stap-lezen"
+      "10:54:52:196" : {
+        "name" : "stap-lezen"
       },
-      "date": "2016-12-22",
-      "referrer": "https://www.facebook.com/",
-      "time": "10:54:46.838",
-      "version": "versiea"
+      "date" : "2016-12-22",
+      "referrer" : "https://www.facebook.com/",
+      "time" : "10:54:46.838",
+      "version" : "versiea"
     },
-    "2016-12-22=09:56:56:389200=BjanB1BhgOduifvfDA02yzrqV4t3ZEZ0lBW76zv6rgA=": {
-      "10:57:01:603": {
-        "name": "stap-welkom"
+    "2016-12-22=09:56:56:389200=BjanB1BhgOduifvfDA02yzrqV4t3ZEZ0lBW76zv6rgA=" : {
+      "10:57:01:603" : {
+        "name" : "stap-welkom"
       },
-      "10:57:21:907": {
-        "name": "stap-lezen-2"
+      "10:57:21:907" : {
+        "name" : "stap-lezen-2"
       },
-      "11:07:50:062": {
-        "name": "stap-lezen-2"
+      "11:07:50:062" : {
+        "name" : "stap-lezen-2"
       },
-      "11:16:14:753": {
-        "name": "stap-enquete"
+      "11:16:14:753" : {
+        "name" : "stap-enquete"
       },
-      "11:17:14:051": {
-        "name": "stap-bedankt"
+      "11:17:14:051" : {
+        "name" : "stap-bedankt"
       },
-      "Enquete": {
-        "tijd": "11:17:13:194",
-        "vraagdialoog": "4",
-        "vraagintrekken": "5",
-        "vraaglezer": "lezer",
-        "vraagopmerking": "",
-        "vraagprettig": "6"
+      "Enquete" : {
+        "tijd" : "11:17:13:194",
+        "vraagdialoog" : "4",
+        "vraagintrekken" : "5",
+        "vraaglezer" : "lezer",
+        "vraagopmerking" : "",
+        "vraagprettig" : "6"
       },
-      "date": "2016-12-22",
-      "referrer": "http://m.facebook.com/",
-      "time": "10:57:1.17",
-      "version": "versiea"
+      "date" : "2016-12-22",
+      "referrer" : "http://m.facebook.com/",
+      "time" : "10:57:1.17",
+      "version" : "versiea"
+    },
+    "2016-12-22=18:26:56:924900=z0TrZ8x+quheOgW9iyEV9mchKf2XG+UT-Lx88VVR53Y=" : {
+      "19:27:03:938" : {
+        "name" : "stap-welkom"
+      },
+      "19:27:11:738" : {
+        "name" : "stap-lezen-2"
+      },
+      "19:31:37:590" : {
+        "name" : "stap-lezen-2"
+      },
+      "19:34:26:748" : {
+        "name" : "stap-enquete"
+      },
+      "date" : "2016-12-22",
+      "referrer" : "https://l.facebook.com/l.php?u=https%3A%2F%2Fnutesten.nl%2Ftekst%2F&h=gAQGh7txc&s=1",
+      "time" : "19:27:3.86",
+      "version" : "versieb"
+    },
+    "2016-12-22=22:06:19:450600=1zZzoI5n0dEDI9XzspJm8rSlOJH1bWIdDfwGd0UAkbI=" : {
+      "23:06:21:287" : {
+        "name" : "stap-welkom"
+      },
+      "23:06:35:169" : {
+        "name" : "stap-lezen-2"
+      },
+      "23:07:28:306" : {
+        "name" : "stap-lezen-2"
+      },
+      "23:07:41:246" : {
+        "name" : "stap-enquete"
+      },
+      "date" : "2016-12-22",
+      "referrer" : "http://m.facebook.com/",
+      "time" : "23:6:20.482",
+      "version" : "versiea"
+    },
+    "2016-12-22=22:07:53:466100=8nO5zwSG9OA6jNWMI5Tbj26ccPnvecq3fObShvSSmus=" : {
+      "23:07:53:936" : {
+        "name" : "stap-welkom"
+      },
+      "date" : "2016-12-22",
+      "referrer" : "http://m.facebook.com/",
+      "time" : "23:7:53.599",
+      "version" : "versiea"
+    },
+    "2016-12-22=22:08:00:600700=+zWu6wxFFcu5d4Xq8x7qudbnd0VSGidvsKN4-DK6RSI=" : {
+      "23:08:00:885" : {
+        "name" : "stap-welkom"
+      },
+      "date" : "2016-12-22",
+      "referrer" : "http://m.facebook.com/",
+      "time" : "23:8:0.780",
+      "version" : "versiea"
+    },
+    "2016-12-22=23:00:14:805200=Rd5lE8zjKZ65MhHX1y7qTidWVJTutkd8cxKipkepqfc=" : {
+      "00:00:10:432" : {
+        "name" : "stap-welkom"
+      },
+      "00:00:16:135" : {
+        "name" : "stap-lezen-2"
+      },
+      "00:21:30:735" : {
+        "name" : "stap-lezen-2"
+      },
+      "00:23:32:986" : {
+        "name" : "stap-enquete"
+      },
+      "00:25:12:610" : {
+        "name" : "stap-bedankt"
+      },
+      "Enquete" : {
+        "tijd" : "00:25:12:491",
+        "vraagdialoog" : "6",
+        "vraagintrekken" : "7",
+        "vraaglezer" : "lezer",
+        "vraagopmerking" : "Heel lekker leesbaar Ger, ik ga er zelfs te laat voor slapen, wilde het eerst lezen.... ;)",
+        "vraagprettig" : "6"
+      },
+      "date" : "2016-12-23",
+      "referrer" : "https://www.facebook.com/",
+      "time" : "0:0:10.275",
+      "version" : "versiea"
+    },
+    "2016-12-23=06:14:48:832000=LRvb1K5azYD1yvqDA29cWWGj2zT9tKwPSUtZSePB5bg=" : {
+      "07:15:04:803" : {
+        "name" : "stap-welkom"
+      },
+      "date" : "2016-12-23",
+      "referrer" : "https://www.facebook.com/",
+      "time" : "7:15:4.699",
+      "version" : "versieb"
+    },
+    "2016-12-23=07:32:06:087300=EN8Z7K5eZg7S9iWaTtghu1qxAtYvKCWH05ZHbBQdB04=" : {
+      "08:32:05:685" : {
+        "name" : "stap-welkom"
+      },
+      "08:32:11:975" : {
+        "name" : "stap-lezen-2"
+      },
+      "08:35:21:565" : {
+        "name" : "stap-lezen-2"
+      },
+      "08:37:29:323" : {
+        "name" : "stap-enquete"
+      },
+      "08:38:02:932" : {
+        "name" : "stap-bedankt"
+      },
+      "Enquete" : {
+        "tijd" : "08:38:02:779",
+        "vraagdialoog" : "5",
+        "vraagintrekken" : "6",
+        "vraaglezer" : "lezer",
+        "vraagopmerking" : "",
+        "vraagprettig" : "7"
+      },
+      "date" : "2016-12-23",
+      "referrer" : "https://www.facebook.com/",
+      "time" : "8:32:5.533",
+      "version" : "versieb"
+    }
+  },
+  "tekst" : {
+    "versiea" : {
+      "name" : "versiea",
+      "text" : "<!-- textfixer.com --> <h1>Beschutting</h1>  <p>Stuiteren, ze wil de bal laten stuiteren, maar niets is zo onmogelijk als het stuiteren van een stuiterbal in zand. Carmen opent haar hand, staart naar het vallen van haar balletje, luistert naar de zachte plof. Wat haar bal mist aan stuiterkracht, maakt ze zelf goed. Ze heeft het gevoel dat elke vezel, elke bloeddruppel, elke cel in haar lichaam stuitert. </p>  <p>'Wat moet ik hiermee? Wat wil ik hiermee? Wat kan ik hiermee?' Ze schreeuwt de woorden van zich af. Niemand die het hoort, niemand die het kan horen. Op deze stormachtige dag zijn er geen mensen op het strand. Dat is precies de reden waarom ze twee jaar geleden hier is gaan wonen. Afzondering, stilte, ruimte, ruige zee, een met de natuur. Haar duinhuis is de enige bewoonbare plek op dit stukje Schotse kust. Het dorp, h&aacute;&aacute;r dorp, ligt op een half uur lopen. Ze geniet altijd van de wandeling wanneer ze boodschappen gaat doen, of een hapje gaat eten in de enige pub die haar dorp rijk is. Altijd, behalve nu. Ze moet gaan, maar alles in haar komt in opstand. Opnieuw knalt haar stem door ruimte, gedragen door de wind: 'Ga weg! Ga weg! Ik wil je niet!'</p>  <p>Het pad is drassig, de wind striemt in haar gezicht. Ze moet zich dwingen om een stap te zetten en een volgende en een volgende. Een ogenblik blijft ze staan. Ze zet haar jaskraag wat meer omhoog. De pluizige, superzachte rand geeft haar bescherming. Heel even laat ze haar wanhoop los en koestert zich aan het knuffelige materiaal. <br />   'Ik ga terug, sluit de luiken en kruip onder de dekens. Dan word ik morgen wakker en is er niets gebeurd.' zegt ze.<br />   'Dat is onzin Carmen. Je weet best dat hij niet weggaat. Je weet best dat je niet droomt, niet slaapt en je verleden onder ogen moet gaan zien.' Haar geweten moet weer de waarheid spreken.<br />   'Hou je mond toch' sputtert ze zichzelf tegen om dan verder te gaan met het zetten van een volgende stap. </p>  <p>Ze opent de deur van de pub met tegenzin. Het licht binnen verblindt haar. Nu kan ze niet meer schuilen in het donker van de maanloze avond. Nu komt de waarheid aan het licht.<br />   'Kind, ik heb je zo gemist!' Haar vaders armen sluiten zich om haar heen. Carmen zucht zachtjes en nestelt zich in de warme omhelzing. </p>  <p>'Hetzelfde als altijd?' De ober kijkt haar vragend aan en knikt richting het tafeltje waar haar vader is gaan zitten.<br />   'En hij?'<br />   'Hij drinkt hetzelfde als ik.' Carmen weet dat de ober vooral wil weten wie 'hij' is, maar ze zwijgt verder.<br />   'Willen jullie ook eten?'<br />   'Misschien. Dat kom ik dan later halen.'</p>  <p>Met een plof zet ze de twee biertjes op het tafeltje.<br />   'Het lijkt wel of ze nog nooit een oude man hebben gezien hier.' Carmen kijkt haar vader even schalks aan, blijft buiten het bereik van zijn armen. Hij reageert niet, staart voor zich uit. Pas als Carmen zit, ze hebben getoost en hij een stevige slok heeft genomen, zegt hij zacht:<br />   'Ik denk dat sommige hier zich proberen te herinneren waar ze mij van kennen.'<br />   'Jou kennen? De Nederlandse kranten worden hier niet gelezen. Bovendien heeft daar een heel vage foto van je ingestaan.'<br />   'Je moeder kwam hier vandaan.'<br />   Met een schok gaat Carmen rechtop zitten. Ze voelt het bloed wegtrekken uit haar gezicht. Alsjeblieft, laat mama hier buiten, denkt ze.<br />   'Ben je dat vergeten? Ik heb aangenomen dat je daarom hier een huis hebt gehuurd.' Haar vader kijkt haar verbaasd aan. Carmen moet vechten tegen de neiging op te staan en weg te rennen. Haar geweten laat haar weer weten dat weglopen geen zin heeft. De tijd heeft haar ingehaald.</p>  <p>'Ik weet niet waarom ik hier ben gekomen. Toeval denk ik. Ik heb dit huis op internet gevonden.'<br />   'Weet je niet meer dat je hier als kleuter bent geweest?'<br />   'Nee dus.' Carmen haalt haar schouders op.<br />   'Welke naam gebruik je hier?'<br />   Ze kijkt haar vader aan. Wat een rare vraag. Ze heeft toch maar een naam?<br />   'Gewoon, Carmen Willems. Wordt hier natuurlijk uitgesproken als Williams.' Ze probeert luchtig te antwoorden. Heel ver in haar geheugen brandt plotseling een lichtje. Ze ziet haar vader indringend naar haar kijken, wachtend op meer. Ineens zegt ze: <br />   'Rhona Carmen Willems-Murray.' Bizar dat ze haar volledige naam helemaal heeft weggedrukt. De laatste keer dat ze haar paspoort heeft gebruikt, is in Nederland geweest, toen ze de huurovereenkomst geregeld heeft. Die makelaar heeft haar naam gezien, maar dat is een kantoor in de stad. Bij haar eerste bezoeken aan het dorp heeft ze wel gemerkt dat er naar haar gegluurd werd, maar dat vond ze logisch omdat ze een vreemde was. Natuurlijk wilden alle bewoners weten wie er in het duinhuis gekomen was. Het had lang leeg gestaan.</p>  <p>Haar gedachten gaan terug naar haar aankomst. Het was laat in de middag, begin november. De regen stroomde met bakken neer. Een medewerker van het makelaarskantoor in Aberdeen had haar naar het huis gereden. Daar was ze erg blij mee. Ze was het gezeul met haar loodzware rugzak zat. Moe, nat, verdoofd door de gebeurtenissen in Nederland zat ze door de autoruit te staren terwijl de medewerker zijn best deed haar van alles over de omgeving te vertellen. Ze had af en toe geknikt om niet al te onbeleefd over te komen. Op de vraag of ze hier misschien familie had, had ze verbaasd en ontkennend geantwoord. Ze had gevraagd waarom hij dat dacht. Vanwege haar rode haar en haar voor- en achternaam, was zijn antwoord geweest. Daarna was ze in slaap gesukkeld. En verder had ze er nooit meer aangedacht.</p> <!-- break --> <p>Tot nu. Tot haar vader vraagt welke naam ze gebruikt.<br />   Ze kijkt voorzichtig de ruimte rond. Blijkbaar zijn de aanwezige dorpsgenoten hun nieuwsgierigheid kwijt. Iedereen zit rustig te praten, te drinken of staat pijltjes te gooien. Alleen de ober vangt haar blik op, maar zegt niks.<br />   'Woont hier nog familie van mama?'<br />   'Ik denk het niet. Jouw grootouders zijn overleden toen je vijf of zes was. Nu ik er over denk... dat was kort na ons bezoek met jou. Mama had geen broers of zussen. Van tantes of ooms weet ik niets. Misschien zijn er nog een paar vrienden uit haar jeugd. Zo'n klein dorp is natuurlijk wel een gemeenschap waar iedereen iedereen kent.'<br />   'Weten ze dat mama..., dat mama niet meer leeft?' Carmen huivert. Het woord 'dood' kan ze niet uitbrengen. Haar allerliefste moeder is niet dood, ze is niet meer in leven. Beelden dringen zich op. Haar moeder bleek en ziek in een ziekenhuisbed. Carmen voelt hoe haar moeder haar hand zachtjes knijpt, naar haar glimlacht. Nee! Ik wil dit niet. Ze schreeuwt in haar gedachten. Dan kijkt ze weer naar haar vader.<br />   'Ik weet het niet. Ik had geen adres van iemand specifiek, dus een rouwkaart is er niet heen gegaan.'<br />   Ze knikt dat ze het begrijpt. Haar gedachten schieten van hot naar her. Het liefst wil ze terug naar haar duinhuis, wegkruipen onder haar dikke dekbed op de bank voor de open haard. Maar moet ze dan haar vader meevragen? Wat is hij van plan? Ze is blij dat ze hem weer ziet, dat hij haar liefdevol heeft omhelsd. Heel misschien is hij toch niet boos op haar. Ze wil het nauwelijks geloven.<br />   'Rhona?'<br />   'Noem me niet zo! Ik heet Carmen. Rhona bestaat niet meer.' Ze ziet het verdriet in haar vaders ogen, als hij zachtjes antwoord: 'Goed lieverd, als jij dat wilt, noem ik je Carmen. Wil je wat eten en nog een biertje?'<br />   'Ja doe maar. Ze hebben hier een goede daghap.'<br />   Carmen kijkt haar vader na als hij naar de bar loopt en met de ober praat. Stom, denkt ze, ik had zelf moeten gaan. Nu zullen ze wel vragen wie hij is. Als ze mij maar met rust laten. Ze sluit haar ogen en leunt met haar hoofd in haar handen.</p>  <p>'H&eacute; schone slaapster, hier is je eten en drinken.' Haar vader strijkt door haar haren.<br />   'Ik heb je even laten slapen tot alles klaar was,' zegt hij met een knipoog.<br />   'Ben je intussen herkend?' Ze is meteen klaarwakker.<br />   'Ja. Jim weet wie ik ben. Ik heb hem bijgepraat. Hij heeft beloofd je met rust te laten tot je zelf over mama begint. Hij is een oude vriend van haar en kan je leuke verhalen vertellen.'<br />   Bijgepraat? Carmen voelt het bloed weer uit haar gezicht trekken.<br />   'Wwwwwat bedoel je met bijpraten?' stamelt ze.<br />   'Dat ik jouw vader ben, dat Beth jouw moeder is, dat Beth is overleden. Ik herkende Jim aan zijn stem. Ik heb hem vroeger vaak ontmoet.'<br />   Carmen begint zachtjes te huilen.<br />   'Het spijt me zo pap. Het spijt me zo.'<br />   Als haar handen verdwijnen onder zijn warme handen, schokken haar schouders heftiger. <br />   'Kindje toch, jij hoeft geen spijt te hebben. Jij hoeft je nergens voor te verontschuldigen of voor te schamen. Het spijt mij dat ik er niet voor je kon zijn de afgelopen paar jaar.'<br />   'Ben je... ben je...' Haar keel knijpt dicht.<br />   'Ik ben vorige week vrij gekomen. Ik wilde zo snel mogelijk naar je toe. Je adres was makkelijker te achterhalen dan ik had verwacht. Ik kreeg van de notaris meteen dit adres, al wist hij niet zeker of je er ook echt zou wonen. In de komende tijd moeten we samen wat formaliteiten afhandelen. Als je daar aan toe bent.' </p>  <p>De tranen stromen weer over haar wangen. Papa is niet boos? Ze is ineens weer in het ziekenhuis waar haar moeder ligt. Haar vader is net de eenpersoonskamer uitgegaan. Hij heeft het gordijn om het bed zodanig dichtgetrokken dat het zicht op haar en haar moeder onttrokken wordt. </p>  <p>Ze zit met haar rug naar het raam, houdt mama's hand vast. Voorzichtig, want ze is bang haar pijn te doen. Moeder mompelt iets. Rhona staat op, leunt naar voren. <br />   'Dank je lieve dochter. Wees trots op jezelf. Heb geen spijt. Ik ben je enorm dankbaar.' Moeder zucht zachtjes, komt een beetje overeind. Rhona ondersteunt haar, stopt de pillen in haar mond, houdt het glas vast terwijl moeder drinkt. Als moeder klaar is, haar hoofd weer op de kussens rust, gaat Rhona op de rand van het bed zitten. Ze voelt hoe haar moeder probeert te knijpen in haar hand. Door haar tranen heen glimlacht ze zwak en zegt:<br />   'Ga maar lieve mama. Het is goed.'<br />   Het volgende moment voelt ze haar vaders armen om zich heen. Met zachte dwang wordt ze de ziekenhuiskamer uitgeduwd. Een aantal verpleegkundigen komt aangerend door de gang. Ze hoort haar vader nog zeggen 'ik was het laatste bij haar' dan zakt ze weg in diep verdriet.</p>"
+    },
+    "versieb" : {
+      "name" : "versieb",
+      "text" : "<!-- textfixer.com --> <h1>Beschutting</h1>  <p>Stuiteren, ze wil de bal laten stuiteren, maar niets is zo onmogelijk als het stuiteren van een stuiterbal in zand. Carmen opent haar hand, staart naar het vallen van haar balletje, luistert naar de zachte plof. Wat haar bal mist aan stuiterkracht, maakt ze zelf goed. Ze heeft het gevoel dat elke vezel, elke bloeddruppel, elke cel in haar lichaam stuitert. </p>  <p>'Wat moet ik hiermee? Wat wil ik hiermee? Wat kan ik hiermee?' Ze schreeuwt de woorden van zich af. Niemand die het hoort, niemand die het kan horen. Op deze stormachtige dag zijn er geen mensen op het strand. Dat is precies de reden waarom ze twee jaar geleden hier is gaan wonen. Afzondering, stilte, ruimte, ruige zee, een met de natuur. Haar duinhuis is de enige bewoonbare plek op dit stukje Schotse kust. Het dorp, h&aacute;&aacute;r dorp, ligt op een half uur lopen. Ze geniet altijd van de wandeling wanneer ze boodschappen gaat doen, of een hapje gaat eten in de enige pub die haar dorp rijk is. Altijd, behalve nu. Ze moet gaan, maar alles in haar komt in opstand. Opnieuw knalt haar stem door ruimte, gedragen door de wind: 'Ga weg! Ga weg! Ik wil je niet!'</p>  <p>Het pad is drassig, de wind striemt in haar gezicht. Ze moet zich dwingen om een stap te zetten en een volgende en een volgende. Een ogenblik blijft ze staan. Ze zet haar jaskraag wat meer omhoog. De pluizige, superzachte rand geeft haar bescherming. Heel even laat ze haar wanhoop los en koestert zich aan het knuffelige materiaal. Ze overweegt om terug te gaan en onder de dekens te kruipen. Haar geweten houdt haar tegen.</p>  <p>Ze opent de deur van de pub met tegenzin. Het licht binnen verblindt haar. Nu kan ze niet meer schuilen in het donker van de maanloze avond. Nu komt de waarheid aan het licht.<br />   'Ik heb je gemist!' Haar vaders armen sluiten zich om haar heen. Carmen zucht zachtjes en nestelt zich in de warme omhelzing. </p>  <p>Na enkele minuten maakt ze zich los, loopt naar de bar, bestelt twee biertjes en loopt naar het tafeltje dat haar vader heeft uitgezocht. Met een plof zet ze de glazen neer. Haar vader reageert niet, staart voor zich uit. Pas als Carmen zit, ze hebben getoost en hij een stevige slok heeft genomen, zegt hij zacht:<br />   'Ik denk dat sommige hier zich proberen te herinneren waar ze mij van kennen.'<br />   'De Nederlandse kranten worden hier niet gelezen.'<br />   'Je moeder kwam hier vandaan.'<br />   Met een schok gaat Carmen rechtop zitten. Ze voelt het bloed wegtrekken uit haar gezicht. Alsjeblieft, laat mama hier buiten, denkt ze.<br />   'Ik dacht dat je daarom hier een huis hebt gehuurd.' Haar vader kijkt haar verbaasd aan. Carmen moet vechten tegen de neiging op te staan en weg te rennen. Haar geweten laat haar weer weten dat weglopen geen zin heeft. De tijd heeft haar ingehaald.</p>  <p>'Hier was een huis beschikbaar,' zegt ze.<br />   'Weet je niet meer dat je hier als kleuter bent geweest?' <br />   Carmen haalt haar schouders op.<br />   'Welke naam gebruik je hier?'<br />   Ze kijkt haar vader aan. Wat een rare vraag. Ze heeft toch maar een naam?<br />   'Gewoon, Carmen Willems.' Ze probeert luchtig te antwoorden. Heel ver in haar geheugen brandt plotseling een lichtje. Ze ziet haar vader indringend naar haar kijken, wachtend op meer. Ineens zegt ze: <br />   'Rhona Carmen Willems-Murray.' Bizar dat ze haar volledige naam helemaal heeft weggedrukt. De laatste keer dat ze haar paspoort heeft gebruikt, is in Nederland geweest, toen ze de huurovereenkomst geregeld heeft. Die makelaar heeft haar naam gezien, maar dat is een kantoor in de stad. Bij haar eerste bezoeken aan het dorp heeft ze wel gemerkt dat er naar haar gegluurd werd, maar dat vond ze logisch omdat ze een vreemde was. Natuurlijk wilden alle bewoners weten wie er in het duinhuis gekomen was. Het had lang leeg gestaan.</p>  <p>Haar gedachten gaan terug naar haar aankomst. Het was laat in de middag, begin november. De regen stroomde met bakken neer. Een medewerker van het makelaarskantoor in Aberdeen had haar naar het huis gereden. Daar was ze erg blij mee. Ze was het gezeul met haar loodzware rugzak zat. Moe, nat, verdoofd door de gebeurtenissen in Nederland zat ze door de autoruit te staren terwijl de medewerker zijn best deed haar van alles over de omgeving te vertellen. Ze had af en toe geknikt om niet al te onbeleefd over te komen. Op de vraag of ze hier misschien familie had, had ze verbaasd en ontkennend geantwoord. Ze had gevraagd waarom hij dat dacht. Vanwege haar rode haar en haar voor- en achternaam, was zijn antwoord geweest. Daarna was ze in slaap gesukkeld. En verder had ze er nooit meer aan gedacht.</p> <!-- break --> <p>Tot nu. Tot haar vader vraagt welke naam ze gebruikt.<br />   Ze kijkt voorzichtig de ruimte rond. Blijkbaar zijn de aanwezige dorpsgenoten hun nieuwsgierigheid kwijt. Iedereen zit rustig te praten, te drinken of staat pijltjes te gooien. Alleen de ober vangt haar blik op, maar zegt niks.<br />   'Woont hier nog familie van mama?'<br />   'Ik denk het niet, maar zo'n klein dorp is natuurlijk wel een gemeenschap waar iedereen iedereen kent.'<br />   'Weten ze dat mama..., dat mama niet meer leeft?' Carmen huivert. Het woord 'dood' kan ze niet uitbrengen. Haar allerliefste moeder is niet dood, ze is niet meer in leven. Beelden dringen zich op. Haar moeder bleek en ziek in een ziekenhuisbed. Carmen voelt hoe haar moeder haar hand zachtjes knijpt, naar haar glimlacht. Nee! Ik wil dit niet. Ze schreeuwt in haar gedachten. Dan kijkt ze weer naar haar vader. Die haalt zijn schouders op. Ze knikt dat ze het begrijpt. Haar gedachten schieten van hot naar her. Het liefst wil ze terug naar haar duinhuis. Maar moet ze dan haar vader meevragen? Wat is hij van plan? Ze is blij dat ze hem weer ziet, dat hij haar liefdevol heeft omhelsd. Heel misschien is hij toch niet boos op haar. Ze wil het nauwelijks geloven.<br />   'Rhona?'<br />   'Noem me niet zo! Ik heet Carmen. Rhona bestaat niet meer.' Ze ziet het verdriet in haar vaders ogen, als hij zachtjes antwoord: 'Goed lieverd, als jij dat wilt.' <br />   Hij staat op en loopt naar de bar. Carmen kijkt hem na, ziet hem met de ober praten. Stom, denkt ze, ik had zelf moeten gaan. Nu zullen ze wel vragen wie hij is. Als ze mij maar met rust laten. Ze sluit haar ogen en leunt met haar hoofd in haar handen.</p>  <p>Haar vader strijkt door haar haren. Ze opent haar ogen en is meteen klaarwakker.<br />   'Ben je herkend?' <br />   'Jim weet wie ik ben. Ik heb hem bijgepraat. Hij heeft beloofd je met rust te laten tot je zelf over mama begint.'<br />   Carmen voelt het bloed weer uit haar gezicht trekken.<br />   'Bijgepraat?' stamelt ze.<br />   'Dat ik jouw vader ben, dat Beth jouw moeder is, dat Beth is overleden.'<br />   Carmen begint zachtjes te huilen.<br />   'Het spijt me zo pap. Het spijt me zo.'<br />   Als haar handen verdwijnen onder zijn warme handen, schokken haar schouders heftiger. <br />   'Kindje toch, jij hoeft geen spijt te hebben. Het spijt mij dat ik er niet voor je kon zijn de afgelopen paar jaar.'<br />   'Ben je... ben je...' Haar keel knijpt dicht.<br />   'Ik ben vorige week vrij gekomen.' </p>  <p>De tranen stromen weer over haar wangen. Ze is ineens weer in het ziekenhuis waar haar moeder ligt. Haar vader is net de eenpersoonskamer uitgegaan. Hij heeft het gordijn om het bed zodanig dichtgetrokken dat het zicht op haar en moeder onttrokken wordt. </p>  <p>Ze zit met haar rug naar het raam, houdt mama's hand vast. Voorzichtig, want ze is bang haar pijn te doen. Moeder mompelt iets. Rhona staat op, leunt naar voren. <br />   'Dank je lieve dochter. Wees trots op jezelf. Heb geen spijt.' Moeder zucht zachtjes, komt een beetje overeind. Rhona ondersteunt haar, stopt de pillen in haar mond, houdt het glas vast terwijl moeder drinkt. Als moeder klaar is, haar hoofd weer op de kussens rust, gaat Rhona op de rand van het bed zitten. Ze voelt hoe haar moeder probeert te knijpen in haar hand. Door haar tranen heen glimlacht ze zwak en zegt:<br />   'Ga maar lieve mama. Het is goed.'<br />   Het volgende moment voelt ze haar vaders armen om zich heen. Met zachte dwang wordt ze de ziekenhuiskamer uitgeduwd. Een aantal verpleegkundigen komt aangerend door de gang. Ze hoort haar vader nog zeggen 'ik was het laatste bij haar' dan zakt ze weg in diep verdriet.</p>"
     }
   }
 }
-
