@@ -6,7 +6,7 @@
  * Time: 10:21
  */
 
-$data = file_get_contents("teksttesterp-export.json");
+$data = file_get_contents("combined.json");
 $jsondata = json_decode($data, true)["result"];
 
 function getipfromkey($key) {
@@ -76,7 +76,7 @@ foreach ($jsondata as $logkey => $logdata) {
   $starttimestamp = strtotime($startdate." ".$starttime) + 3600;
   $startdate = date("Y-m-d", $starttimestamp);
   $output = $starttimestamp;
-  $output .= "," . getip(substr($logkey, 27, 44));
+  $output .= "," . "'".getip(substr($logkey, 27, 44))."'";
   $output .= "," . $startdate;
   $output .= "," . $starttime;
   $output .= "," . $logdata["version"];

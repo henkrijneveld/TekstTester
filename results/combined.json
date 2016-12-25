@@ -1,5 +1,107 @@
 {
   "result" : {
+    "2016-11-23=15:40:39:882300=4jaD02e6GQ6SBgSYTqX7LI0kSoVnkc0qOrAn6w4ElLA=" : {
+      "16:40:40:121" : {
+        "name" : "stap-welkom"
+      },
+      "16:40:53:709" : {
+        "name" : "stap-lezen-2"
+      },
+      "16:44:00:549" : {
+        "name" : "stap-lezen-2"
+      },
+      "date" : "2016-11-23",
+      "gebruiker" : "Lizelotte",
+      "referrer" : "",
+      "time" : "16:40:39.979",
+      "version" : "versieb"
+    },
+    "2016-11-24=11:45:10:340200=oZQ-9CLLfmdfmE5uHfZt7qYFXiwxCn0zTA5-4T+NjlI=" : {
+      "13:31:26:603" : {
+        "name" : "stap-welkom"
+      },
+      "13:31:29:159" : {
+        "name" : "stap-lezen"
+      },
+      "date" : "2016-11-24",
+      "gebruiker" : "Marja",
+      "referrer" : "",
+      "time" : "13:31:26.146",
+      "version" : "versieb"
+    },
+    "2016-11-24=12:31:58:556200=XbOFft1VolaT7JRoWimjWQKNhh5bilwVTJpFJmlfz4s=" : {
+      "13:32:12:923" : {
+        "name" : "stap-welkom"
+      },
+      "13:32:14:563" : {
+        "name" : "stap-lezen"
+      },
+      "date" : "2016-11-24",
+      "gebruiker" : "Marja",
+      "referrer" : "",
+      "time" : "13:32:12.706",
+      "version" : "versieb"
+    },
+    "2016-11-25=09:51:47:365600=8ev1pU0rEjUtmkf3kl2yHqmIhzaPIrMnlrB04tU8Oyc=" : {
+      "10:52:03:159" : {
+        "name" : "stap-welkom"
+      },
+      "10:52:06:314" : {
+        "name" : "stap-lezen-2"
+      },
+      "10:59:57:263" : {
+        "name" : "stap-lezen-2"
+      },
+      "11:03:46:662" : {
+        "name" : "stap-enquete"
+      },
+      "11:06:16:831" : {
+        "name" : "stap-bedankt"
+      },
+      "Enquete" : {
+        "tijd" : "11:06:16:573",
+        "vraagdialoog" : "7",
+        "vraagintrekken" : "6",
+        "vraaglezer" : "lezer",
+        "vraagopmerking" : "Het is nog steeds een spannend verhaal waar ik nog verder van wil genieten en er dus inderdaad in wordt getrokken. Ben wel wat tikfoutjes tegengekomen. Maar wanneer komt het volgende stuk? Groeten, Marja",
+        "vraagprettig" : "7"
+      },
+      "Gebruiker" : "Marja",
+      "date" : "2016-11-25",
+      "referrer" : "",
+      "time" : "10:52:1.924",
+      "version" : "versieb"
+    },
+    "2016-11-25=12:41:58:231000=jQNBWzlxLztdVFHNg5cjwzqInEFxcFsdgG+H3gLoS6g=" : {
+      "13:42:00:261" : {
+        "name" : "stap-welkom"
+      },
+      "13:42:05:498" : {
+        "name" : "stap-lezen-2"
+      },
+      "13:44:55:828" : {
+        "name" : "stap-lezen-2"
+      },
+      "13:47:07:515" : {
+        "name" : "stap-enquete"
+      },
+      "13:52:13:300" : {
+        "name" : "stap-bedankt"
+      },
+      "Enquete" : {
+        "tijd" : "13:52:13:089",
+        "vraagdialoog" : "6",
+        "vraagintrekken" : "7",
+        "vraaglezer" : "lezer",
+        "vraagopmerking" : "Ik heb prettig leesbaar iets minder gescoord, omdat er voor mij iets teveel detail in stond. Voorbeeldje: de zachte pluizige kraag oid.",
+        "vraagprettig" : "5"
+      },
+      "date" : "2016-11-25",
+      "gebruiker" : "Lizelotte",
+      "referrer" : "",
+      "time" : "13:41:59.992",
+      "version" : "versieb"
+    },
     "2016-12-21=10:12:43:422100=wovuyVytm4fQVf28MVMSEiTJaC48K0+D0cNBLqQr9NI=" : {
       "11:12:49:969" : {
         "name" : "stap-welkom"
@@ -863,6 +965,129 @@
       "date" : "2016-12-23",
       "referrer" : "https://www.facebook.com/",
       "time" : "8:32:5.533",
+      "version" : "versieb"
+    },
+    "2016-12-23=11:35:00:368300=XJysL6FVXaRIbB4XgnsUjlQuJb2pRxSJ1yHEpefvZSM=" : {
+      "12:35:01:148" : {
+        "name" : "stap-welkom"
+      },
+      "date" : "2016-12-23",
+      "referrer" : "",
+      "time" : "12:35:1.64",
+      "version" : "versieb"
+    },
+    "2016-12-23=11:57:51:578600=qgJgoRjGE+YVMll2qnMagf0OpERdrws0L53eC72TljI=" : {
+      "13:09:04:930" : {
+        "name" : "stap-welkom"
+      },
+      "13:09:10:895" : {
+        "name" : "stap-lezen-2"
+      },
+      "13:11:24:429" : {
+        "name" : "stap-lezen-2"
+      },
+      "13:14:24:269" : {
+        "name" : "stap-enquete"
+      },
+      "13:15:02:677" : {
+        "name" : "stap-bedankt"
+      },
+      "Enquete" : {
+        "tijd" : "13:15:02:406",
+        "vraagdialoog" : "7",
+        "vraagintrekken" : "7",
+        "vraaglezer" : "lezer",
+        "vraagopmerking" : "",
+        "vraagprettig" : "7"
+      },
+      "date" : "2016-12-23",
+      "referrer" : "http://m.facebook.com/",
+      "time" : "13:9:4.134",
+      "version" : "versieb"
+    },
+    "2016-12-23=14:03:12:174200=tzNmiyJpOifhdNR3HZ3a9i87LWjc+iPO0p0ykzskan8=" : {
+      "15:03:14:631" : {
+        "name" : "stap-welkom"
+      },
+      "date" : "2016-12-23",
+      "referrer" : "http://m.facebook.com/",
+      "time" : "15:3:14.36",
+      "version" : "versieb"
+    },
+    "2016-12-23=21:34:44:719200=NeZaslImQAZam4RQTgY59DvraBfcZ0MMeItVZhu43tc=" : {
+      "22:34:47:402" : {
+        "name" : "stap-welkom"
+      },
+      "22:34:56:673" : {
+        "name" : "stap-lezen-2"
+      },
+      "22:38:19:531" : {
+        "name" : "stap-lezen-2"
+      },
+      "22:41:22:689" : {
+        "name" : "stap-enquete"
+      },
+      "22:45:11:462" : {
+        "name" : "stap-bedankt"
+      },
+      "Enquete" : {
+        "tijd" : "22:45:11:189",
+        "vraagdialoog" : "5",
+        "vraagintrekken" : "6",
+        "vraaglezer" : "lezer",
+        "vraagopmerking" : "Het begin vind ik moeilijk leesbaar wat zins opbouw betreft later word het beter/goed. Benieuwd hoe het verhaal verder gaat :) succes met verder schrijven.",
+        "vraagprettig" : "5"
+      },
+      "date" : "2016-12-23",
+      "referrer" : "http://m.facebook.com/",
+      "time" : "22:34:46.331",
+      "version" : "versieb"
+    },
+    "2016-12-23=22:02:48:123300=UDchmi7wEBi-O4QjXlp0lBTQrAoZffpVb6zRTbutgds=" : {
+      "23:02:49:235" : {
+        "name" : "stap-welkom"
+      },
+      "23:02:54:455" : {
+        "name" : "stap-lezen-2"
+      },
+      "23:03:40:384" : {
+        "name" : "stap-lezen-2"
+      },
+      "23:03:46:946" : {
+        "name" : "stap-enquete"
+      },
+      "date" : "2016-12-23",
+      "referrer" : "http://m.facebook.com",
+      "time" : "23:2:49.132",
+      "version" : "versieb"
+    },
+    "2016-12-24=20:41:14:334500=tA83OlgZ5vruT6CR+TymuZ+kxIbD+iPeN8IVv5szwzU=" : {
+      "21:41:18:184" : {
+        "name" : "stap-welkom"
+      },
+      "21:41:25:515" : {
+        "name" : "stap-lezen-2"
+      },
+      "21:43:12:125" : {
+        "name" : "stap-lezen-2"
+      },
+      "21:43:19:215" : {
+        "name" : "stap-enquete"
+      },
+      "21:46:11:199" : {
+        "name" : "stap-bedankt"
+      },
+      "Enquete" : {
+        "tijd" : "21:46:10:766",
+        "vraagdialoog" : "2",
+        "vraagintrekken" : "3",
+        "vraaglezer" : "lezer",
+        "vraagopmerking" : "Leuk gegeven , maar je gebruikt te veel woorden, vooral te veel adjectieven. Ik ben geen schrijver, dus heb makkelijk praten, maar ik denk dat je zou moeten schrappen. Met minder woorden hetzelfde zeggen. En geen superlatieven , waarom 'superzacht'? Zacht is ook zacht...\nVeel succes!",
+        "vraagprettig" : "3"
+      },
+      "date" : "2016-12-24",
+      "referrer" : "http://m.facebook.com",
+      "time" : "21:41:17.808",
       "version" : "versieb"
     }
   },
